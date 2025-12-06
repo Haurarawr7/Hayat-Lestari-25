@@ -1,0 +1,1067 @@
+{
+    "kingdoms": [
+        {
+            "id": 1,
+            "nama": "Plantae",
+            "deskripsi": "Kingdom tumbuhan yang melakukan fotosintesis",
+            "divisions": [
+                {
+                    "id": 101,
+                    "kingdomId": 1,
+                    "nama": "Magnoliophyta (Angiospermae)",
+                    "deskripsi": "Tumbuhan berbunga",
+                    "species": [
+                        {
+                            "id": 1001,
+                            "divisionId": 101,
+                            "nama": "Pohon Jati",
+                            "latin": "Tectona Grandis",
+                            "region": "Southeast Asia",
+                            "imageFile": "jati.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan tropis"
+                        },
+                        {
+                            "id": 1002,
+                            "divisionId": 101,
+                            "nama": "Pohon Mahoni",
+                            "latin": "Swietenia Macrophylla",
+                            "region": "Central America",
+                            "imageFile": "mahoni.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan tropis"
+                        },
+                        {
+                            "id": 1003,
+                            "divisionId": 101,
+                            "nama": "Rafflesia Arnoldii",
+                            "latin": "Rafflesia Arnoldii",
+                            "region": "Southeast Asia",
+                            "imageFile": "rafflesia.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan hujan Sumatera"
+                        },
+                        {
+                            "id": 1004,
+                            "divisionId": 101,
+                            "nama": "Bunga Bangkai Raksasa",
+                            "latin": "Amorphophallus Titanum",
+                            "region": "Southeast Asia",
+                            "imageFile": "bungabangkai.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Sumatera"
+                        },
+                        {
+                            "id": 1005,
+                            "divisionId": 101,
+                            "nama": "Trembesi",
+                            "latin": "Samanea Saman",
+                            "region": "Central America",
+                            "imageFile": "trembesi.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Dataran rendah tropis"
+                        },
+                        {
+                            "id": 1006,
+                            "divisionId": 101,
+                            "nama": "Pohon Durian",
+                            "latin": "Durio Zibethinus",
+                            "region": "Southeast Asia",
+                            "imageFile": "durian.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan tropis"
+                        },
+                        {
+                            "id": 1007,
+                            "divisionId": 101,
+                            "nama": "Mangga",
+                            "latin": "Mangifera Indica",
+                            "region": "South Asia",
+                            "imageFile": "mangga.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Tropis dataran rendah"
+                        },
+                        {
+                            "id": 1008,
+                            "divisionId": 101,
+                            "nama": "Karet",
+                            "latin": "Hevea Brasiliensis",
+                            "region": "South America",
+                            "imageFile": "karet.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Perkebunan tropis"
+                        }
+                    ]
+                },
+                {
+                    "id": 102,
+                    "kingdomId": 1,
+                    "nama": "Pinophyta (Gymnospermae)",
+                    "deskripsi": "Tumbuhan berbiji terbuka",
+                    "species": [
+                        {
+                            "id": 1009,
+                            "divisionId": 102,
+                            "nama": "Pinus Merkusii",
+                            "latin": "Pinus Merkusii",
+                            "region": "Southeast Asia",
+                            "imageFile": "pinus.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Pegunungan tropis"
+                        },
+                        {
+                            "id": 1010,
+                            "divisionId": 102,
+                            "nama": "Douglas Fir",
+                            "latin": "Pseudotsuga Menziesii",
+                            "region": "North America",
+                            "imageFile": "douglasfir.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan konifer Amerika"
+                        },
+                        {
+                            "id": 1011,
+                            "divisionId": 102,
+                            "nama": "Taksus",
+                            "latin": "Taxus Sumatrana",
+                            "region": "Southeast Asia",
+                            "imageFile": "taksus.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Pegunungan Sumatera"
+                        }
+                    ]
+                },
+                {
+                    "id": 103,
+                    "kingdomId": 1,
+                    "nama": "Pteridophyta",
+                    "deskripsi": "Tumbuhan paku",
+                    "species": [
+                        {
+                            "id": 1012,
+                            "divisionId": 103,
+                            "nama": "Paku Sarang Burung",
+                            "latin": "Asplenium Nidus",
+                            "region": "Southeast Asia",
+                            "imageFile": "pakusarangburung.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan tropis lembab"
+                        },
+                        {
+                            "id": 1013,
+                            "divisionId": 103,
+                            "nama": "Paku Tanduk Rusa",
+                            "latin": "Platycerium Bifurcatum",
+                            "region": "Southeast Asia",
+                            "imageFile": "pakutandukrusa.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Epifit di pohon besar"
+                        }
+                    ]
+                },
+                {
+                    "id": 104,
+                    "kingdomId": 1,
+                    "nama": "Arecaceae (Palem-paleman)",
+                    "deskripsi": "Familia palem dan kelapa",
+                    "species": [
+                        {
+                            "id": 1014,
+                            "divisionId": 104,
+                            "nama": "Pohon Kelapa",
+                            "latin": "Cocos Nucifera",
+                            "region": "Southeast Asia",
+                            "imageFile": "kelapa.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Pesisir tropis"
+                        },
+                        {
+                            "id": 1015,
+                            "divisionId": 104,
+                            "nama": "Palem Raja",
+                            "latin": "Roystonea Regia",
+                            "region": "Central America",
+                            "imageFile": "palemraja.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Dataran rendah tropis"
+                        },
+                        {
+                            "id": 1016,
+                            "divisionId": 104,
+                            "nama": "Palem Jawa",
+                            "latin": "Pigafetta Filaris",
+                            "region": "Southeast Asia",
+                            "imageFile": "palemjawa.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Jawa"
+                        }
+                    ]
+                },
+                {
+                    "id": 105,
+                    "kingdomId": 1,
+                    "nama": "Poaceae (Bambu dan Rumput)",
+                    "deskripsi": "Familia rumput-rumputan termasuk bambu",
+                    "species": [
+                        {
+                            "id": 1017,
+                            "divisionId": 105,
+                            "nama": "Bambu Kuning",
+                            "latin": "Bambusa Vulgaris",
+                            "region": "Southeast Asia",
+                            "imageFile": "bambukuining.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Dataran rendah tropis"
+                        },
+                        {
+                            "id": 1018,
+                            "divisionId": 105,
+                            "nama": "Bambu Betung",
+                            "latin": "Dendrocalamus Asper",
+                            "region": "Southeast Asia",
+                            "imageFile": "bambubetung.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan bambu"
+                        }
+                    ]
+                },
+                {
+                    "id": 106,
+                    "kingdomId": 1,
+                    "nama": "Orchidaceae (Anggrek)",
+                    "deskripsi": "Familia anggrek",
+                    "species": [
+                        {
+                            "id": 1019,
+                            "divisionId": 106,
+                            "nama": "Anggrek Bulan",
+                            "latin": "Phalaenopsis Amabilis",
+                            "region": "Southeast Asia",
+                            "imageFile": "anggrekbulan.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan tropis sebagai epifit"
+                        },
+                        {
+                            "id": 1020,
+                            "divisionId": 106,
+                            "nama": "Anggrek Bulan Raksasa",
+                            "latin": "Phalaenopsis Gigantea",
+                            "region": "Southeast Asia",
+                            "imageFile": "anggrekbulanraksasa.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Kalimantan"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nama": "Fungi",
+            "deskripsi": "Kingdom jamur pengurai dan simbiosis",
+            "divisions": [
+                {
+                    "id": 201,
+                    "kingdomId": 2,
+                    "nama": "Basidiomycota",
+                    "deskripsi": "Jamur dengan basidium (jamur payung)",
+                    "species": [
+                        {
+                            "id": 2001,
+                            "divisionId": 201,
+                            "nama": "Jamur Tiram",
+                            "latin": "Pleurotus Ostreatus",
+                            "region": "Worldwide",
+                            "imageFile": "jamurtiram.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu mati pohon keras"
+                        },
+                        {
+                            "id": 2002,
+                            "divisionId": 201,
+                            "nama": "Jamur Kuping",
+                            "latin": "Auricularia Auricula-judae",
+                            "region": "Asia",
+                            "imageFile": "jamurkuping.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu lapuk"
+                        },
+                        {
+                            "id": 2003,
+                            "divisionId": 201,
+                            "nama": "Jamur Shiitake",
+                            "latin": "Lentinula Edodes",
+                            "region": "East Asia",
+                            "imageFile": "jamurshiitake.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu pohon keras"
+                        },
+                        {
+                            "id": 2004,
+                            "divisionId": 201,
+                            "nama": "Jamur Merang",
+                            "latin": "Volvariella Volvacea",
+                            "region": "Southeast Asia",
+                            "imageFile": "jamurmerang.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Jerami padi"
+                        },
+                        {
+                            "id": 2005,
+                            "divisionId": 201,
+                            "nama": "Jamur Lingzhi",
+                            "latin": "Ganoderma Lucidum",
+                            "region": "Asia",
+                            "imageFile": "jamurlingzhi.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu pohon keras"
+                        }
+                    ]
+                },
+                {
+                    "id": 202,
+                    "kingdomId": 2,
+                    "nama": "Ascomycota",
+                    "deskripsi": "Jamur dengan askus (jamur kantung)",
+                    "species": [
+                        {
+                            "id": 2006,
+                            "divisionId": 202,
+                            "nama": "Truffle Hitam",
+                            "latin": "Tuber Melanosporum",
+                            "region": "Europe",
+                            "imageFile": "trufflehitam.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Akar pohon oak"
+                        },
+                        {
+                            "id": 2007,
+                            "divisionId": 202,
+                            "nama": "Morel",
+                            "latin": "Morchella Esculenta",
+                            "region": "Northern Hemisphere",
+                            "imageFile": "morel.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan gugur"
+                        },
+                        {
+                            "id": 2008,
+                            "divisionId": 202,
+                            "nama": "Ragi Roti",
+                            "latin": "Saccharomyces Cerevisiae",
+                            "region": "Worldwide",
+                            "imageFile": "ragi.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kultivasi industri"
+                        }
+                    ]
+                },
+                {
+                    "id": 203,
+                    "kingdomId": 2,
+                    "nama": "Zygomycota",
+                    "deskripsi": "Jamur dengan zigospora",
+                    "species": [
+                        {
+                            "id": 2009,
+                            "divisionId": 203,
+                            "nama": "Tempe Mold",
+                            "latin": "Rhizopus Oligosporus",
+                            "region": "Southeast Asia",
+                            "imageFile": "rhizopus.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kedelai fermentasi"
+                        },
+                        {
+                            "id": 2010,
+                            "divisionId": 203,
+                            "nama": "Jamur Roti",
+                            "latin": "Rhizopus Stolonifer",
+                            "region": "Worldwide",
+                            "imageFile": "jamurroti.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Makanan basi"
+                        }
+                    ]
+                },
+                {
+                    "id": 204,
+                    "kingdomId": 2,
+                    "nama": "Oomycota",
+                    "deskripsi": "Jamur air dan penyebab penyakit tanaman",
+                    "species": [
+                        {
+                            "id": 2011,
+                            "divisionId": 204,
+                            "nama": "Jamur Busuk Kentang",
+                            "latin": "Phytophthora Infestans",
+                            "region": "Worldwide",
+                            "imageFile": "phytophthora.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Tanaman kentang"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nama": "Animalia",
+            "deskripsi": "Kingdom hewan multiseluler heterotrofik",
+            "divisions": [
+                {
+                    "id": 301,
+                    "kingdomId": 3,
+                    "nama": "Mammalia",
+                    "deskripsi": "Hewan menyusui berdarah panas",
+                    "species": [
+                        {
+                            "id": 3001,
+                            "divisionId": 301,
+                            "nama": "Harimau Sumatera",
+                            "latin": "Panthera Tigris Sumatrae",
+                            "region": "Southeast Asia",
+                            "imageFile": "harimausumatera.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan hujan Sumatera"
+                        },
+                        {
+                            "id": 3002,
+                            "divisionId": 301,
+                            "nama": "Orangutan Kalimantan",
+                            "latin": "Pongo Pygmaeus",
+                            "region": "Southeast Asia",
+                            "imageFile": "orangutan.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Kalimantan"
+                        },
+                        {
+                            "id": 3003,
+                            "divisionId": 301,
+                            "nama": "Badak Jawa",
+                            "latin": "Rhinoceros Sondaicus",
+                            "region": "Southeast Asia",
+                            "imageFile": "badakjawa.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Ujung Kulon"
+                        },
+                        {
+                            "id": 3004,
+                            "divisionId": 301,
+                            "nama": "Gajah Sumatera",
+                            "latin": "Elephas Maximus Sumatranus",
+                            "region": "Southeast Asia",
+                            "imageFile": "gajahsumatera.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Sumatera"
+                        },
+                        {
+                            "id": 3005,
+                            "divisionId": 301,
+                            "nama": "Kerbau",
+                            "latin": "Bubalus Bubalis",
+                            "region": "Asia",
+                            "imageFile": "kerbau.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Sawah dan rawa"
+                        }
+                    ]
+                },
+                {
+                    "id": 302,
+                    "kingdomId": 3,
+                    "nama": "Aves",
+                    "deskripsi": "Burung berbulu dengan sayap",
+                    "species": [
+                        {
+                            "id": 3006,
+                            "divisionId": 302,
+                            "nama": "Cendrawasih Merah",
+                            "latin": "Paradisaea Rubra",
+                            "region": "Southeast Asia",
+                            "imageFile": "cendrawasih.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Paoua"
+                        },
+                        {
+                            "id": 3007,
+                            "divisionId": 302,
+                            "nama": "Jalak Bali",
+                            "latin": "Leucopsar Rothschildi",
+                            "region": "Southeast Asia",
+                            "imageFile": "jalakbali.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Bali Barat"
+                        },
+                        {
+                            "id": 3008,
+                            "divisionId": 302,
+                            "nama": "Elang Jawa",
+                            "latin": "Nisaetus Bartelsi",
+                            "region": "Southeast Asia",
+                            "imageFile": "elangjawa.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan pegunungan Jawa"
+                        },
+                        {
+                            "id": 3009,
+                            "divisionId": 302,
+                            "nama": "Ayam Kampung",
+                            "latin": "Gallus Gallus Domesticus",
+                            "region": "Asia",
+                            "imageFile": "ayam.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Peternakan"
+                        }
+                    ]
+                },
+                {
+                    "id": 303,
+                    "kingdomId": 3,
+                    "nama": "Reptilia",
+                    "deskripsi": "Hewan bersisik berdarah dingin",
+                    "species": [
+                        {
+                            "id": 3010,
+                            "divisionId": 303,
+                            "nama": "Komodo",
+                            "latin": "Varanus Komodoensis",
+                            "region": "Southeast Asia",
+                            "imageFile": "komodo.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Nusa Tenggara"
+                        },
+                        {
+                            "id": 3011,
+                            "divisionId": 303,
+                            "nama": "Penyu Hijau",
+                            "latin": "Chelonia Mydas",
+                            "region": "Tropical Oceans",
+                            "imageFile": "penyuhijau.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Laut tropis"
+                        },
+                        {
+                            "id": 3012,
+                            "divisionId": 303,
+                            "nama": "Buaya Muara",
+                            "latin": "Crocodylqus Porosus",
+                            "region": "Southeast Asia",
+                            "imageFile": "buayamuara.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Sungai dan estuari"
+                        }
+                    ]
+                },
+                {
+                    "id": 304,
+                    "kingdomId": 3,
+                    "nama": "Amphibia",
+                    "deskripsi": "Hewan amfibi hidup di dua alam",
+                    "species": [
+                        {
+                            "id": 3013,
+                            "divisionId": 304,
+                            "nama": "Katak Pohon Jawa",
+                            "latin": "Rhacophorus Reinwardtii",
+                            "region": "Southeast Asia",
+                            "imageFile": "katakpohon.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan tropis Jawa"
+                        },
+                        {
+                            "id": 3014,
+                            "divisionId": 304,
+                            "nama": "Katak Lembu",
+                            "latin": "Fejervarya Cancrivora",
+                            "region": "Southeast Asia",
+                            "imageFile": "kataklembu.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Sawah dan rawa"
+                        }
+                    ]
+                },
+                {
+                    "id": 305,
+                    "kingdomId": 3,
+                    "nama": "Pisces",
+                    "deskripsi": "Ikan dan hewan air bersirip",
+                    "species": [
+                        {
+                            "id": 3015,
+                            "divisionId": 305,
+                            "nama": "Arwana Merah",
+                            "latin": "Scleropages Formosus",
+                            "region": "Southeast Asia",
+                            "imageFile": "arwana.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Sungai Kalimantan"
+                        },
+                        {
+                            "id": 3016,
+                            "divisionId": 305,
+                            "nama": "Ikan Nila",
+                            "latin": "Oreochromis Niloticus",
+                            "region": "Africa",
+                            "imageFile": "nila.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Air tawar"
+                        },
+                        {
+                            "id": 3017,
+                            "divisionId": 305,
+                            "nama": "Ikan Koi",
+                            "latin": "Cyprinus Carpio",
+                            "region": "East Asia",
+                            "imageFile": "koi.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kolam budidaya"
+                        }
+                    ]
+                },
+                {
+                    "id": 306,
+                    "kingdomId": 3,
+                    "nama": "Insecta",
+                    "deskripsi": "Serangga dengan 6 kaki",
+                    "species": [
+                        {
+                            "id": 3018,
+                            "divisionId": 306,
+                            "nama": "Kupu-kupu Sayap Burung",
+                            "latin": "Ornithoptera Goliath",
+                            "region": "Southeast Asia",
+                            "imageFile": "kupusayapburung.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Papua"
+                        },
+                        {
+                            "id": 3019,
+                            "divisionId": 306,
+                            "nama": "Lebah Madu",
+                            "latin": "Apis Mellifera",
+                            "region": "Worldwide",
+                            "imageFile": "lebahmadu.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Sarang koloni"
+                        },
+                        {
+                            "id": 3020,
+                            "divisionId": 306,
+                            "nama": "Kumbang Tanduk",
+                            "latin": "Chalcosoma Atlas",
+                            "region": "Southeast Asia",
+                            "imageFile": "kumbangtanduk.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan tropis"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nama": "Fungi",
+            "deskripsi": "Kingdom jamur pengurai dan simbiosis",
+            "divisions": [
+                {
+                    "id": 201,
+                    "kingdomId": 2,
+                    "nama": "Basidiomycota",
+                    "deskripsi": "Jamur dengan basidium (jamur payung)",
+                    "species": [
+                        {
+                            "id": 2001,
+                            "divisionId": 201,
+                            "nama": "Jamur Tiram",
+                            "latin": "Pleurotus Ostreatus",
+                            "region": "Worldwide",
+                            "imageFile": "jamurtiram.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu mati pohon keras"
+                        },
+                        {
+                            "id": 2002,
+                            "divisionId": 201,
+                            "nama": "Jamur Kuping",
+                            "latin": "Auricularia Auricula-judae",
+                            "region": "Asia",
+                            "imageFile": "jamurkuping.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu lapuk"
+                        },
+                        {
+                            "id": 2003,
+                            "divisionId": 201,
+                            "nama": "Jamur Shiitake",
+                            "latin": "Lentinula Edodes",
+                            "region": "East Asia",
+                            "imageFile": "jamurshiitake.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu pohon keras"
+                        },
+                        {
+                            "id": 2004,
+                            "divisionId": 201,
+                            "nama": "Jamur Merang",
+                            "latin": "Volvariella Volvacea",
+                            "region": "Southeast Asia",
+                            "imageFile": "jamurmerang.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Jerami padi"
+                        },
+                        {
+                            "id": 2005,
+                            "divisionId": 201,
+                            "nama": "Jamur Lingzhi",
+                            "latin": "Ganoderma Lucidum",
+                            "region": "Asia",
+                            "imageFile": "jamurlingzhi.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kayu pohon keras"
+                        }
+                    ]
+                },
+                {
+                    "id": 202,
+                    "kingdomId": 2,
+                    "nama": "Ascomycota",
+                    "deskripsi": "Jamur dengan askus (jamur kantung)",
+                    "species": [
+                        {
+                            "id": 2006,
+                            "divisionId": 202,
+                            "nama": "Truffle Hitam",
+                            "latin": "Tuber Melanosporum",
+                            "region": "Europe",
+                            "imageFile": "trufflehitam.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Akar pohon oak"
+                        },
+                        {
+                            "id": 2007,
+                            "divisionId": 202,
+                            "nama": "Morel",
+                            "latin": "Morchella Esculenta",
+                            "region": "Northern Hemisphere",
+                            "imageFile": "morel.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan gugur"
+                        },
+                        {
+                            "id": 2008,
+                            "divisionId": 202,
+                            "nama": "Ragi Roti",
+                            "latin": "Saccharomyces Cerevisiae",
+                            "region": "Worldwide",
+                            "imageFile": "ragi.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kultivasi industri"
+                        }
+                    ]
+                },
+                {
+                    "id": 203,
+                    "kingdomId": 2,
+                    "nama": "Zygomycota",
+                    "deskripsi": "Jamur dengan zigospora",
+                    "species": [
+                        {
+                            "id": 2009,
+                            "divisionId": 203,
+                            "nama": "Tempe Mold",
+                            "latin": "Rhizopus Oligosporus",
+                            "region": "Southeast Asia",
+                            "imageFile": "rhizopus.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kedelai fermentasi"
+                        },
+                        {
+                            "id": 2010,
+                            "divisionId": 203,
+                            "nama": "Jamur Roti",
+                            "latin": "Rhizopus Stolonifer",
+                            "region": "Worldwide",
+                            "imageFile": "jamurroti.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Makanan basi"
+                        }
+                    ]
+                },
+                {
+                    "id": 204,
+                    "kingdomId": 2,
+                    "nama": "Oomycota",
+                    "deskripsi": "Jamur air dan penyebab penyakit tanaman",
+                    "species": [
+                        {
+                        "id": 2011,
+                        "divisionId": 204,
+                        "nama": "Jamur Busuk Kentang",
+                        "latin": "Phytophthora Infestans",
+                        "region": "Worldwide",
+                        "imageFile": "phytophthora.png",
+                        "statusPerlindungan": "Tidak Dilindungi",
+                        "habitatUtama": "Tanaman kentang"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nama": "Animalia",
+            "deskripsi": "Kingdom hewan multiseluler heterotrofik",
+            "divisions": [
+                {
+                    "id": 301,
+                    "kingdomId": 3,
+                    "nama": "Mammalia",
+                    "deskripsi": "Hewan menyusui berdarah panas",
+                    "species": [
+                        {
+                            "id": 3001,
+                            "divisionId": 301,
+                            "nama": "Harimau Sumatera",
+                            "latin": "Panthera Tigris Sumatrae",
+                            "region": "Southeast Asia",
+                            "imageFile": "harimausumatera.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan hujan Sumatera"
+                        },
+                        {
+                            "id": 3002,
+                            "divisionId": 301,
+                            "nama": "Orangutan Kalimantan",
+                            "latin": "Pongo Pygmaeus",
+                            "region": "Southeast Asia",
+                            "imageFile": "orangutan.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Kalimantan"
+                        },
+                        {
+                            "id": 3003,
+                            "divisionId": 301,
+                            "nama": "Badak Jawa",
+                            "latin": "Rhinoceros Sondaicus",
+                            "region": "Southeast Asia",
+                            "imageFile": "badakjawa.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Ujung Kulon"
+                        },
+                        {
+                            "id": 3004,
+                            "divisionId": 301,
+                            "nama": "Gajah Sumatera",
+                            "latin": "Elephas Maximus Sumatranus",
+                            "region": "Southeast Asia",
+                            "imageFile": "gajahsumatera.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Sumatera"
+                        },
+                        {
+                            "id": 3005,
+                            "divisionId": 301,
+                            "nama": "Kerbau",
+                            "latin": "Bubalus Bubalis",
+                            "region": "Asia",   
+                            "imageFile": "kerbau.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Sawah dan rawa"
+                        }
+                    ]
+                },
+                {
+                    "id": 302,
+                    "kingdomId": 3,
+                    "nama": "Aves",
+                    "deskripsi": "Burung berbulu dengan sayap",
+                    "species": [
+                        {
+                            "id": 3006,
+                            "divisionId": 302,
+                            "nama": "Cendrawasih Merah",
+                            "latin": "Paradisaea Rubra",
+                            "region": "Southeast Asia",
+                            "imageFile": "cendrawasih.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Papua"
+                        },
+                        {
+                            "id": 3007,
+                            "divisionId": 302,
+                            "nama": "Jalak Bali",
+                            "latin": "Leucopsar Rothschildi",
+                            "region": "Southeast Asia",
+                            "imageFile": "jalakbali.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Bali Barat"
+                        },
+                        {
+                            "id": 3008,
+                            "divisionId": 302,
+                            "nama": "Elang Jawa",
+                            "latin": "Nisaetus Bartelsi",
+                            "region": "Southeast Asia",
+                            "imageFile": "elangjawa.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan pegunungan Jawa"
+                        },
+                        {
+                            "id": 3009,
+                            "divisionId": 302,
+                            "nama": "Ayam Kampung",
+                            "latin": "Gallus Gallus Domesticus",
+                            "region": "Asia",
+                            "imageFile": "ayam.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Peternakan"
+                        }
+                    ]
+                },
+                {
+                    "id": 303,
+                    "kingdomId": 3,
+                    "nama": "Reptilia",
+                    "deskripsi": "Hewan bersisik berdarah dingin",
+                    "species": [
+                        {
+                            "id": 3010,
+                            "divisionId": 303,
+                            "nama": "Komodo",
+                            "latin": "Varanus Komodoensis",
+                            "region": "Southeast Asia",
+                            "imageFile": "komodo.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Nusa Tenggara"
+                        },
+                        {
+                            "id": 3011,
+                            "divisionId": 303,
+                            "nama": "Penyu Hijau",
+                            "latin": "Chelonia Mydas",
+                            "region": "Tropical Oceans",
+                            "imageFile": "penyuhijau.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Laut tropis"
+                        },
+                        {
+                            "id": 3012,
+                            "divisionId": 303,
+                            "nama": "Buaya Muara",
+                            "latin": "Crocodylus Porosus",
+                            "region": "Southeast Asia", 
+                            "imageFile": "buayamuara.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Sungai dan estuari"
+                        }
+                    ]
+                },
+                {
+                    "id": 304,
+                    "kingdomId": 3,
+                    "nama": "Amphibia",
+                    "deskripsi": "Hewan amfibi hidup di dua alam",
+                    "species": [
+                        {
+                            "id": 3013,
+                            "divisionId": 304,
+                            "nama": "Katak Pohon Jawa",
+                            "latin": "Rhacophorus Reinwardtii",
+                            "region": "Southeast Asia",
+                            "imageFile": "katakpohon.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan tropis Jawa"
+                        },
+                        {
+                            "id": 3014,
+                            "divisionId": 304,
+                            "nama": "Katak Lembu",
+                            "latin": "Fejervarya Cancrivora",
+                            "region": "Southeast Asia",
+                            "imageFile": "kataklembu.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Sawah dan rawa"
+                        }
+                    ]
+                },
+                {
+                    "id": 305,
+                    "kingdomId": 3,
+                    "nama": "Pisces",
+                    "deskripsi": "Ikan dan hewan air bersirip",
+                    "species": [
+                        {
+                            "id": 3015,
+                            "divisionId": 305,
+                            "nama": "Arwana Merah",
+                            "latin": "Scleropages Formosus",
+                            "region": "Southeast Asia",
+                            "imageFile": "arwana.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Sungai Kalimantan"
+                        },
+                        {
+                            "id": 3016,
+                            "divisionId": 305,
+                            "nama": "Ikan Nila",
+                            "latin": "Oreochromis Niloticus",
+                            "region": "Africa",
+                            "imageFile": "nila.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Air tawar"
+                        },
+                        {
+                            "id": 3017,
+                            "divisionId": 305,
+                            "nama": "Ikan Koi",
+                            "latin": "Cyprinus Carpio",
+                            "region": "East Asia",
+                            "imageFile": "koi.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Kolam budidaya"
+                        }
+                    ]
+                },
+                {
+                    "id": 306,
+                    "kingdomId": 3,
+                    "nama": "Insecta",
+                    "deskripsi": "Serangga dengan 6 kaki",
+                    "species": [
+                        {
+                            "id": 3018,
+                            "divisionId": 306,
+                            "nama": "Kupu-kupu Sayap Burung",
+                            "latin": "Ornithoptera Goliath",
+                            "region": "Southeast Asia",
+                            "imageFile": "kupusayapburung.png",
+                            "statusPerlindungan": "Dilindungi",
+                            "habitatUtama": "Hutan Papua"
+                        },
+                        {
+                            "id": 3019,
+                            "divisionId": 306,
+                            "nama": "Lebah Madu",
+                            "latin": "Apis Mellifera",
+                            "region": "Worldwide",
+                            "imageFile": "lebahmadu.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Sarang koloni"
+                        },
+                        {
+                            "id": 3020,
+                            "divisionId": 306,
+                            "nama": "Kumbang Tanduk",
+                            "latin": "Chalcosoma Atlas",
+                            "region": "Southeast Asia",
+                            "imageFile": "kumbangtanduk.png",
+                            "statusPerlindungan": "Tidak Dilindungi",
+                            "habitatUtama": "Hutan tropis"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
