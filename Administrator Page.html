@@ -1,7 +1,3 @@
-<!--Hayat Lestari-->
-<!--Website UAS-->
-<!-- Website Mengenai Pemeliharaan Hewan dan Tumbuhan yang Dilindungi terutama di Indonesia -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,163 +5,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HayatLestari</title>
 
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: var(--bg-dark);
-            color: #80b78b;
-            min-height: 100vh;
-        }
-        .navbar {
-            background: rgba(15, 23, 42, 0.95) !important;
-            backdrop-filter: blur(10px);
-            border-bottom: 2px solid var(--primary-green);
-            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.2);
-        }
-
-        .navbar-brand {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--primary-green) !important;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .hero-section{
-            color: brown;
-        }
-    </style>
 </head>
-<body>
+<body style="font-family: 'Poppins', sans-serif; background: #f8f9fa; margin: 0; padding: 0;">
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark ">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <i class="bi bi-globe2"></i>
-                HayatLestari
+                    <b>HayatLestari</b>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Ensiklopedia
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Fauna</a>
-                            <a class="dropdown-item" href="#">Flora</a>
-                            <a class="dropdown-item" href="#">Flora & Fauna</a>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-2 col-md-3 bg-dark text-white position-fixed vh-100" style="overflow-y: auto; z-index: 1000;">
+                
+
+                <!-- Menu -->
+                <ul class="list-unstyled p-3">
+                    <!-- Dashboard -->
+                    <li class="mb-3">
+                        <div class="p-3 rounded text-light bg-success" style="cursor: pointer;">
+                            <i class="bi bi-speedometer2 me-2"></i>
+                            <span>Dashboard</span>
                         </div>
-                    </div>
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#lapor">Lapor</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#donasi">Donasi</a>
+
+                    <!-- Konten -->
+                    <li class="mb-3">
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-book me-2"></i>
+                            <span>Ensiklopedia</span>
+                        </div>
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-file-text me-2"></i>
+                            <span>Artikel</span>
+                        </div>
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-lightbulb me-2"></i>
+                            <span>Saran Pengguna</span>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#adopsi">Adopsi</a>
+
+                    <!-- Laporan -->
+                    <li class="mb-3">
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-inbox me-2"></i>
+                            <span>Kasus Masuk</span>
+                        </div>
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-search me-2"></i>
+                            <span>Penyelidikan</span>
+                        </div>
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-check-circle me-2"></i>
+                            <span>Selesai</span>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#">Sign in/Login</a>
+
+                    <!-- Donasi -->
+                    <li class="mb-3">
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-cash-coin me-2"></i>
+                            <span>Donasi</span>
+                        </div>
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-graph-up me-2"></i>
+                            <span>Penggunaan Donasi</span>
+                        </div>
+                    </li>
+
+                    <!-- Manajemen -->
+                    <li class="mb-2">
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-people me-2"></i>
+                            <span>Pengguna</span>
+                        </div>
+                        <div class="p-2 rounded mb-1" style="cursor: pointer; color: #d1d5db;">
+                            <i class="bi bi-gear me-2"></i>
+                            <span>Pengaturan</span>
+                        </div>
+                    </li>
+
+                    <!-- Logout -->
+                    <li>
+                        <div class="p-2 rounded" style="cursor: pointer; color: #ef4444;">
+                            <i class="bi bi-box-arrow-right me-2"></i>
+                            <span>Logout</span>
+                        </div>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    
-        <!-- Hero -->
-        <section class="hero-section" id="Hero">
-            <div class="">
-                <div class="">
-                    <!-- Menu -->
-                    <h1 class=""> Administrator Page</h1>
-                    <div>
-                        <ul>
-                            <div class="">
-                                <li class="">
-                                    Dashboard
-                                </li>
-                            </div>
-                            <div class="">
-                                <h7>Konten</h7>
 
-                                <li class="">
-                                    Ensiklopedia
-                                </li>
-                                <li class="">
-                                    Artikel
-                                </li>
-                                <li>
-                                    Saran Pengguna
-                                </li>
+            <!-- Main Content -->
+            <div class="col-lg-10 col-md-9 offset-lg-2 offset-md-3 p-4">
+                <!-- Top Bar -->
+                <div class="bg-white p-4 rounded shadow-sm mb-4" style="border-radius: 15px;">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <p>7 Desember 2025</p>
+                            <h2 class="fw-bold mb-1 text-dark">Halo, Selamat Datang, Admin</h2>
+                            <p class="mb-0 text-muted">Ayo kita bekerja! Mau mulai dari mana dulu?</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3 bg-light p-2 rounded" style="cursor: pointer;">
+                            <div class="rounded-circle d-flex align-items-center justify-content-center text-white fw-bold overflow" 
+                                 style="width: 40px; height: 40px; background: #10b981;">
                             </div>
-
-                            <div class="">
-                                <h7>Laporan</h7>
-
-                                <li class="">
-                                    Kasus Masuk
-                                </li>
-                                <li class="">
-                                    Penyelidikan
-                                </li>
-                                <li class="">
-                                    Selesai
-                                </li>
+                            <div>
+                                <div class="fw-bold text-dark">Admin</div>
+                                <small class="text-muted">Administrator</small>
                             </div>
-                        
-                            <div class="">
-                                <h7> Donasi</h7>
-                                <li class="">
-                                    Donasi
-                                </li>
-                                <li class="">
-                                    Penggunaan Donasi
-                                </li>
-                            </div>
-
-                            <div class="">
-                                <h7>Manajemen</h7>
-
-                                <li class="">
-                                    Pengguna
-                                </li>
-                                <li class="">
-                                    Pengaturan
-                                </li>
-                            </div>
-                        </ul>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Main Page-->
-                <div>
-                    <h1 class=""></h1>
-                    <p> Ayo kita bekerja! Mau mulai dari mana dulu?</p>
+                <!-- Stats Cards -->
+                <div class="row g-3 mb-4">
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-white p-4 rounded shadow-sm" style="border-radius: 15px;">
+                            <div class="d-flex align-items-center justify-content-center rounded mb-3" 
+                                 style="width: 50px; height: 50px; background: rgba(16, 185, 129, 0.1); color: #10b981;">
+                                <i class="bi bi-file-earmark-text" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <h6 class="text-muted mb-2">Total Artikel</h6>
+                            <h2 class="fw-bold mb-0 text-dark">24</h2>
+                        </div>
+                    </div>
 
-                    <div>
-                        <
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-white p-4 rounded shadow-sm" style="border-radius: 15px;">
+                            <div class="d-flex align-items-center justify-content-center rounded mb-3" 
+                                 style="width: 50px; height: 50px; background: rgba(59, 130, 246, 0.1); color: #3b82f6;">
+                                <i class="bi bi-inbox" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <h6 class="text-muted mb-2">Kasus Masuk</h6>
+                            <h2 class="fw-bold mb-0 text-dark">12</h2>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-white p-4 rounded shadow-sm" style="border-radius: 15px;">
+                            <div class="d-flex align-items-center justify-content-center rounded mb-3" 
+                                 style="width: 50px; height: 50px; background: rgba(245, 158, 11, 0.1); color: #f59e0b;">
+                                <i class="bi bi-search" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <h6 class="text-muted mb-2">Penyelidikan</h6>
+                            <h2 class="fw-bold mb-0 text-dark">8</h2>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-white p-4 rounded shadow-sm" style="border-radius: 15px;">
+                            <div class="d-flex align-items-center justify-content-center rounded mb-3" 
+                                 style="width: 50px; height: 50px; background: rgba(239, 68, 68, 0.1); color: #ef4444;">
+                                <i class="bi bi-cash-stack" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <h6 class="text-muted mb-2">Total Donasi</h6>
+                            <h2 class="fw-bold mb-0   text-dark">Rp 100M</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="bg-white p-4 rounded shadow-sm mb-4" style="border-radius: 15px;">
+                    <h4 class="fw-bold mb-4 text-dark">
+                        <i class="bi bi-lightning me-2"></i> Aksi Cepat
+                    </h4>
+                    <div class="row g-3">
+                        <!-- Action 1 -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="border rounded p-4 text-center" 
+                                 style="cursor: pointer; border-radius: 12px !important; border-color: #e9ecef !important;">
+                                <i class="bi bi-plus-circle mb-3" style="font-size: 2rem;"></i>
+                                <h5 class="fw-bold mb-2  text-dark">Tambah Artikel</h5>
+                                <p class="text-muted small mb-0">Buat artikel baru</p>
+                            </div>
+                        </div>
+
+                        <!-- Action 2 -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="border rounded p-4 text-center" 
+                                 style="cursor: pointer; border-radius: 12px !important; border-color: #e9ecef !important;">
+                                <i class="bi bi-book mb-3" style="font-size: 2rem;"></i>
+                                <h5 class="fw-bold mb-2  text-dark">Tambah Ensiklopedia</h5>
+                                <p class="text-muted small mb-0">Input data flora/fauna</p>
+                            </div>
+                        </div>
+
+                        <!-- Action 3 -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="border rounded p-4 text-center" 
+                                 style="cursor: pointer; border-radius: 12px !important; border-color: #e9ecef !important;">
+                                <i class="bi bi-inbox mb-3" style="font-size: 2rem"></i>
+                                <h5 class="fw-bold mb-2 text-dark">Lihat Laporan</h5>
+                                <p class="text-muted small mb-0">Cek kasus masuk</p>
+                            </div>
+                        </div>
+
+                        <!-- Action 4 -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="border rounded p-4 text-center" 
+                                 style="cursor: pointer; border-radius: 12px !important; border-color: #e9ecef !important;">
+                                <i class="bi bi-people mb-3" style="font-size: 2rem;"></i>
+                                <h5 class="fw-bold mb-2  text-dark">Kelola Pengguna</h5>
+                                <p class="text-muted small mb-0">Manajemen user</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p class="mb-0">Haura Agnia Ramadhani Amnun - 2404043</p>
         </div>
-    </footer>
+    </div>
+    <!-- Footer -->
+    <div class="bg-white p-3 text-center" style="border-radius: 15px;">
+        <p class="mb-0 text-muted">Haura Agnia Ramadhani Amnun - 2404043 - PILKOM 3B</p>
+    </div>
 </body>
 </html>

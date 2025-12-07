@@ -24,49 +24,33 @@
             color: #80b78b;
             min-height: 100vh;
         }
-        .navbar {
-            background: rgba(15, 23, 42, 0.95) !important;
-            backdrop-filter: blur(10px);
-            border-bottom: 2px solid var(--primary-green);
-            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.2);
-        }
-
-        .navbar-brand {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--primary-green) !important;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .hero-section{
-            color: brown;
-        }
     </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark ">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <i class="bi bi-globe2"></i>
-                HayatLestari
+                    <b>HayatLestari</b>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Ensiklopedia
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Fauna</a>
-                            <a class="dropdown-item" href="#">Flora</a>
-                            <a class="dropdown-item" href="#">Flora & Fauna</a>
-                        </div>
-                    </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                            Ensiklopedia
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fauna</a></li>
+                            <li><a class="dropdown-item" href="#">Flora</a></li>
+                            <li><a class="dropdown-item" href="#">Flora & Fauna</a></li>
+                        </ul>
+                    </li>
+                        
                     <li class="nav-item">
                         <a class="nav-link fw-semibold" href="#lapor">Lapor</a>
                     </li>
@@ -77,7 +61,10 @@
                         <a class="nav-link fw-semibold" href="#adopsi">Adopsi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#">Sign in/Login</a>
+                        <a class="nav-link fw-semibold" href="#Tentang">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" >Sign in/Login</a>
                     </li>
                 </ul>
             </div>
@@ -85,17 +72,138 @@
     </nav>
     
 
-        <!--  -->
-        <section>
-            <div>
+    <!-- Main -->
+    <section class="adoption-section bg-light" id="adopsi">
+        <div class="container">
+            <div class="row ">
+                <!--Kiri: Gambar-->
+                <div class="py-5 col-lg-6 mb-4">
+                    <div class="position-relative" style="height: 600px; border-radius: 15px; overflow: hidden;">
+                        <img src="download (39).jpg" class="w-100 h-100" style="object-fit: cover;">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-4" 
+                            style="background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);">
+                            <h1 class="text-white fw-bold mb-2" style="font-size: 3rem;">Elang Jawa</h1>
+                            <p class="text-warning fw-semibold mb-0" style="font-size: 1.2rem;">Nisaetus bartelsi - Southeast Asia</p>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Kanan: Detail Info -->
+                <div class="py-5 col-lg-6 mb-5 pb-5">
+                    <!-- Deskripsi -->
+                    <div class="">
+                        <p class="text-dark" style="text-align: justify; line-height: 1.5;">
+                            <b style="font-size: 32px;">Elang Jawa</b> dikenal sebagai salah satu predator puncak yang hanya ditemukan di Pulau Jawa. 
+                            Burung pemangsa ini memiliki ciri khas jambul menonjol yang tegak dan diyakini menjadi inspirasi lambang negara Garuda Indonesia. 
+                            Ia memiliki peran vital dalam menjaga keseimbangan ekosistem hutan hujan tropis. Ancaman utama kelangsungan hidupnya adalah perburuan liar dan hilangnya habitat akibat deforestasi.
+                        </p>
+                    </div>
+
+                    <div class="row mb-5">
+                        <div class="col-lg-6">
+                            <div class="bg-white p-3 rounded shadow-sm" style="border-radius: 15px;">
+                                <div class="row" style="font-size: 15px;">
+                                    <div class="col-6 mb-1">
+                                        <div class="fw-bold text-dark">Kingdom</div>
+                                        <div class="text-muted">Animalia</div>
+                                    </div>
+                                    <div class="col-6 mb-1">
+                                        <div class="fw-bold text-dark">Filum</div>
+                                        <div class="text-muted">Chordata</div>
+                                    </div>
+                                    <div class="col-6 mb-1">
+                                        <div class="fw-bold text-dark">Kelas</div>
+                                        <div class="text-muted">Aves</div>
+                                    </div>
+                                    <div class="col-6 mb-1">
+                                        <div class="fw-bold text-dark">Ordo</div>
+                                        <div class="text-muted">Accipitriformes</div>
+                                    </div>
+                                    <div class="col-6 mb-1">
+                                        <div class="fw-bold text-dark">Famili</div>
+                                        <div class="text-muted">Accipitridae</div>
+                                    </div>
+                                    <div class="col-6 mb-1">
+                                        <div class="fw-bold text-dark">Genus</div>
+                                        <div class="text-muted">Nisaetus</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Peta Lokasi - KANAN -->
+                        <div class="col-lg-6">
+                            <div class="bg-white p-3 rounded shadow-sm" style="border-radius: 15px; height: 100%;">
+                                <div class="bg-secondary rounded" style="height: 100%; position: relative; min-height: 100px;">
+                                    <img src="https://via.placeholder.com/400x200/4ade80/ffffff?text=Map+Placeholder" 
+                                        class="w-100 h-100 rounded" style="object-fit: cover;">
+                                    <div class="position-absolute bottom-0 start-0 p-3">
+                                        <h5 class="text-white fw-bold mb-0">Bandung, Jawa Barat</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="row mt-2 bg-">
+                        <!-- Status Badges -->
+                        <div class="flex-wrap gap-2 col-lg-6 align-items-center">
+                        
+                            <span class="badge px-3 mt-1" style="background: #ef4444; font-size: 1rem; border-radius: 20px;">
+                                <b>Kritis</b>
+                            </span>
+                            <span class="badge px-3 mt-1" style="background: #f59e0b; font-size: 1rem; border-radius: 20px;">
+                                <b>Dilindungi Penuh</b>
+                            </span>
+                            <span class="badge px-3 mt-1" style="background: #3b82f6; font-size: 1rem; border-radius: 20px;">
+                                <b> < 300 Pasang di Alam Liar</b>
+                            </span>
+                            <span class="badge px-4 mt-1" style="background: #10b981; font-size: 1rem; border-radius: 20px;">
+                                <b>Masa Hidup Hingga 15 Tahun</b>
+                            </span>
+
+                            <div class="">
+                                <p class="py-2  text-dark" style="font-size: 16px;">Menemukan penyelewengan?</p>
+                                <button class="btn btn-danger px-3 fw-bold col-lg-12 border" style="border-radius: 10px; border-color: black ;">
+                                    Buat Laporan Penyelewengan
+                                </button>
+                            </div>
+                            
+                        </div>
+                        
+                    
+                        <!-- Rekomendasi Topik -->
+                        <div class="bg-white p-3 rounded shadow-sm col-lg-6" style="border-radius: 15px;">
+                            <h5 class="fw-bold text-dark">Rekomendasi Topik</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="">
+                                    <a href="#" class="text-decoration-none text-muted">• Burung Cendrawasih Merah</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" class="text-decoration-none text-muted">• Burung Jalak Bali</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" class="text-decoration-none text-muted">• Ayam Kampung</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" class="text-decoration-none text-muted">• Aves</a>
+                                </li>
+                                <li class="">
+                                    <a href="#" class="text-decoration-none text-muted">• Animalia</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="text-muted mt-2 small">
+                        Terjadi kesalahan Informasi? <a href="#" class="text-primary text-decoration-none fw-semibold">Klik di sini</a> agar kami bisa segera memprosesnya
+                    </p>
+                </div>
             </div>
-        </section>
-
+        </div>
+    </section>
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p class="mb-0">Haura Aqnia Ramadhani Amnun - 2404043</p>
+        <div class="">
+            <p class="text-center">Haura Agnia Ramadhani Amnun - 2404043</p>
         </div>
     </footer>
 </body>
