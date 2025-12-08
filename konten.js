@@ -1,0 +1,107 @@
+// Fungsi untuk mendapatkan parameter dari URL
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Fungsi untuk mencari data berdasarkan ID di struktur nested
+function findSpeciesById(jsonData, speciesId) {
+    // Loop through kingdoms
+    for (const kingdomKey in jsonData.kingdoms) {
+        const kingdom = jsonData.kingdoms[kingdomKey];
+        
+        // Loop through divisions
+        for (const divisionKey in kingdom.divisions) {
+            const division = kingdom.divisions[divisionKey];
+            
+            // Loop through species
+            for (const speciesKey in division.species) {
+                if (speciesKey === speciesId) {
+                    return division.species[speciesKey];
+                }
+            }
+        }
+    }
+    return null;
+}
+
+// Fungsi untuk memuat data dari JSON
+async function loadData() {
+    try {
+        // Ambil ID dari URL parameter (default: elang-jawa)
+        const id = getUrlParameter('id') || 'elang-jawa';
+        
+        // Fetch data dari file JSON
+        const response = await fetch('test.json');
+        if (!response.ok) throw new Error('Gagal memuat data');
+        
+        const jsonData = await response.json();
+        
+        // Cari data species berdasarkan ID
+        const data = findSpeciesById(jsonData, id);
+        
+        if (!data) {
+            throw new Error('Data tidak ditemukan');
+        }
+        
+        // Update konten halaman
+        document.getElementById('mainImage').src = data.gambar;
+        document.getElementById('mainImage').alt = data.nama;
+        document.getElementById('namaUtama').textContent = data.nama;
+        document.getElementById('namaLatin').textContent = `${data.namaLatin} - ${data.region}`;
+        
+        // Update deskripsi dengan nama di awal bold
+        document.getElementById('deskripsi').innerHTML = `<b style="font-size: 32px;">${data.nama}</b> ${data.deskripsi.replace(data.nama, '')}`;
+        
+        // Update taksonomi
+        const taksonomiDiv = document.getElementById('taksonomi');
+        taksonomiDiv.innerHTML = '';
+        for (const [key, value] of Object.entries(data.taksonomi)) {
+            taksonomiDiv.innerHTML += `
+                <div class="col-6 mb-2">
+                    <div class="fw-bold text-dark text-capitalize">${key}</div>
+                    <div class="text-muted">${value}</div>
+                </div>
+            `;
+        }
+        
+        // Update lokasi
+        document.getElementById('petaLokasi').src = data.lokasi.gambarPeta;
+        document.getElementById('namaLokasi').textContent = data.lokasi.nama;
+        
+        // Update status badges
+        const statusDiv = document.getElementById('statusBadges');
+        statusDiv.innerHTML = '';
+        data.status.forEach(status => {
+            statusDiv.innerHTML += `
+                <span class="badge px-3 py-2" style="background: ${status.warna}; font-size: 0.9rem; border-radius: 20px;">
+                    <b>${status.label}</b>
+                </span>
+            `;
+        });
+        
+        // Update rekomendasi
+        const rekomendasiList = document.getElementById('rekomendasiList');
+        rekomendasiList.innerHTML = '';
+        data.rekomendasi.forEach(item => {
+            rekomendasiList.innerHTML += `
+                <li class="mb-1">
+                    <a href="?id=${item.toLowerCase().replace(/ /g, '-')}" class="text-decoration-none text-muted">• ${item}</a>
+                </li>
+            `;
+        });
+        
+        // Tampilkan konten, sembunyikan loading
+        document.getElementById('loading').classList.add('d-none');
+        document.getElementById('content').classList.remove('d-none');
+        
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('loading').classList.add('d-none');
+        document.getElementById('error').classList.remove('d-none');
+        document.getElementById('errorMessage').textContent = error.message;
+    }
+}
+
+// Load data saat halaman dimuat
+document.addEventListener('DOMContentLoaded', loadData);

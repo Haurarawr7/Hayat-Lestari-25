@@ -1,0 +1,895 @@
+{
+    "kingdoms": {
+        "plantae": {
+            "nama": "Plantae",
+            "deskripsi": "Kingdom tumbuhan yang melakukan fotosintesis menggunakan klorofil untuk menghasilkan makanannya sendiri. Organisme multiseluler yang memiliki dinding sel dari selulosa dan umumnya tidak dapat bergerak aktif.",
+            "divisions": {
+                "magnoliophyta": {
+                    "nama": "Magnoliophyta (Angiospermae)",
+                    "deskripsi": "Tumbuhan berbunga yang memiliki biji tertutup dalam ovarium. Merupakan kelompok tumbuhan paling beragam dengan lebih dari 300,000 spesies yang tersebar di seluruh dunia.",
+                    "species": {
+                        "pohon-jati": {
+                            "nama": "Pohon Jati",
+                            "namaLatin": "Tectona grandis",
+                            "region": "Southeast Asia",
+                            "gambar": "jati.jpg",
+                            "deskripsi": "Pohon Jati adalah salah satu pohon kayu keras tropis yang paling berharga dan memiliki kualitas kayu terbaik di dunia. Kayunya terkenal sangat kuat, tahan lama, dan tahan terhadap serangan rayap. Jati banyak digunakan untuk furniture mewah, konstruksi kapal, dan bangunan berkualitas tinggi. Pohon ini dapat tumbuh hingga 40 meter dengan diameter batang mencapai 2 meter.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Lamiales",
+                                "famili": "Lamiaceae",
+                                "genus": "Tectona"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Tropis, Jawa Tengah",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Dilindungi",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "Nilai Ekonomi Tinggi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "Masa Panen 25-30 Tahun",
+                                "warna": "#3b82f6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Pohon Mahoni",
+                                "Trembesi",
+                                "Pohon Durian",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        },
+                        "pohon-mahoni": {
+                            "nama": "Pohon Mahoni",
+                            "namaLatin": "Swietenia macrophylla",
+                            "region": "Central America",
+                            "gambar": "mahoni.jpg",
+                            "deskripsi": "Pohon Mahoni adalah pohon kayu keras yang berasal dari Amerika Tengah namun telah dibudidayakan di berbagai negara tropis termasuk Indonesia. Kayunya berwarna merah kecoklatan, memiliki serat halus, dan mudah dikerjakan. Mahoni sering digunakan untuk furniture berkualitas tinggi, ukiran, dan instrumen musik. Pohon ini juga berfungsi sebagai pohon peneduh di perkotaan.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Sapindales",
+                                "famili": "Meliaceae",
+                                "genus": "Swietenia"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Tropis, Jawa & Kalimantan",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Dilindungi",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "CITES Appendix II",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Pohon Peneduh Kota",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Pohon Jati",
+                                "Trembesi",
+                                "Pohon Karet",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        },
+                        "rafflesia-arnoldii": {
+                            "nama": "Rafflesia Arnoldii",
+                            "namaLatin": "Rafflesia arnoldii",
+                            "region": "Sumatera, Indonesia",
+                            "gambar": "rafflesia.jpg",
+                            "deskripsi": "Rafflesia Arnoldii adalah bunga terbesar di dunia yang dapat mencapai diameter hingga 1 meter dengan berat mencapai 11 kg. Bunga ini memiliki karakteristik unik yaitu tidak memiliki akar, batang, maupun daun. Rafflesia adalah parasit obligat yang hidup pada akar tanaman inangnya. Bunga ini terkenal dengan aroma busuk yang menyerupai daging membusuk untuk menarik lalat sebagai penyerbuk.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Malpighiales",
+                                "famili": "Rafflesiaceae",
+                                "genus": "Rafflesia"
+                            },
+                            "lokasi": {
+                                "nama": "Bengkulu, Sumatera",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Terancam Punah",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "Bunga Terbesar di Dunia",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Endemik Sumatera",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Bunga Bangkai",
+                                "Anggrek Bulan",
+                                "Pohon Durian",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        },
+                        "bunga-bangkai": {
+                            "nama": "Bunga Bangkai Raksasa",
+                            "namaLatin": "Amorphophallus titanum",
+                            "region": "Sumatera, Indonesia",
+                            "gambar": "bunga-bangkai.jpg",
+                            "deskripsi": "Bunga Bangkai adalah bunga majemuk terbesar di dunia yang dapat mencapai tinggi hingga 3 meter. Tanaman ini terkenal dengan aroma busuk yang sangat menyengat saat mekar, yang berfungsi untuk menarik serangga penyerbuk. Bunga bangkai memiliki periode pertumbuhan yang unik, dengan umbi yang dapat mencapai berat 75 kg. Mekarnya bunga ini sangat langka dan hanya berlangsung 1-2 hari.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Alismatales",
+                                "famili": "Araceae",
+                                "genus": "Amorphophallus"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Sumatera",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Dilindungi",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "Rentan (Vulnerable)",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Bunga Majemuk Terbesar",
+                                "warna": "#3b82f6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Rafflesia Arnoldii",
+                                "Anggrek Bulan",
+                                "Trembesi",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        },
+                        "trembesi": {
+                            "nama": "Trembesi",
+                            "namaLatin": "Samanea saman",
+                            "region": "Central America",
+                            "gambar": "trembesi.jpg",
+                            "deskripsi": "Trembesi adalah pohon peneduh raksasa yang dapat mencapai tinggi 25 meter dengan tajuk yang sangat lebar hingga 50 meter. Pohon ini sangat efektif menyerap karbon dioksida, mampu menyerap hingga 28 ton CO2 per tahun. Trembesi sering ditanam sebagai pohon peneduh di taman dan jalan raya. Kayunya juga bernilai ekonomi untuk furniture dan konstruksi.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Fabales",
+                                "famili": "Fabaceae",
+                                "genus": "Samanea"
+                            },
+                            "lokasi": {
+                                "nama": "Dataran Rendah Tropis, Indonesia",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Tidak Dilindungi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "Penyerap CO2 Terbaik",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Pohon Peneduh",
+                                "warna": "#8b5cf6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Pohon Jati",
+                                "Pohon Mahoni",
+                                "Pohon Karet",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        },
+                        "pohon-durian": {
+                            "nama": "Pohon Durian",
+                            "namaLatin": "Durio zibethinus",
+                            "region": "Southeast Asia",
+                            "gambar": "durian.jpg",
+                            "deskripsi": "Pohon Durian adalah tanaman tropis yang menghasilkan buah dengan aroma khas yang sangat kuat. Buahnya dijuluki 'Raja Buah' di Asia Tenggara karena rasa dan teksturnya yang unik. Pohon durian dapat tumbuh hingga 40 meter dan mulai berbuah setelah 4-5 tahun. Durian memiliki nilai ekonomi tinggi dan menjadi komoditas ekspor penting bagi Indonesia.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Malvales",
+                                "famili": "Malvaceae",
+                                "genus": "Durio"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Tropis, Sumatera & Kalimantan",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Tidak Dilindungi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "Nilai Ekonomi Tinggi",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Raja Buah",
+                                "warna": "#f59e0b"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Mangga",
+                                "Pohon Karet",
+                                "Trembesi",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        },
+                        "mangga": {
+                            "nama": "Mangga",
+                            "namaLatin": "Mangifera indica",
+                            "region": "South Asia",
+                            "gambar": "mangga.jpg",
+                            "deskripsi": "Mangga adalah buah tropis yang sangat populer di seluruh dunia dengan lebih dari 1000 varietas. Pohon mangga dapat hidup hingga ratusan tahun dan terus berbuah produktif. Buahnya kaya vitamin C, vitamin A, dan serat yang baik untuk kesehatan. Mangga memiliki nilai budaya penting dan menjadi buah nasional di beberapa negara Asia.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Sapindales",
+                                "famili": "Anacardiaceae",
+                                "genus": "Mangifera"
+                            },
+                            "lokasi": {
+                                "nama": "Tropis Dataran Rendah, Indonesia",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Tidak Dilindungi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "> 1000 Varietas",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Buah Tropis Populer",
+                                "warna": "#8b5cf6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Pohon Durian",
+                                "Pohon Karet",
+                                "Trembesi",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        },
+                        "pohon-karet": {
+                            "nama": "Karet",
+                            "namaLatin": "Hevea brasiliensis",
+                            "region": "South America",
+                            "gambar": "karet.jpg",
+                            "deskripsi": "Pohon Karet adalah sumber utama karet alam dunia yang berasal dari Amazon namun berkembang pesat di Asia Tenggara. Indonesia adalah salah satu produsen karet terbesar dunia. Getah pohon karet (lateks) disadap dan diolah menjadi berbagai produk karet. Perkebunan karet memberikan mata pencaharian bagi jutaan petani di Indonesia.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Magnoliopsida",
+                                "ordo": "Malpighiales",
+                                "famili": "Euphorbiaceae",
+                                "genus": "Hevea"
+                            },
+                            "lokasi": {
+                                "nama": "Perkebunan Tropis, Sumatera",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Tidak Dilindungi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "Komoditas Ekspor",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Produsen Karet Alam",
+                                "warna": "#f59e0b"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Pohon Jati",
+                                "Trembesi",
+                                "Mangga",
+                                "Magnoliophyta",
+                                "Plantae"
+                            ]
+                        }
+                    }
+                },
+                "pinophyta": {
+                    "nama": "Pinophyta (Gymnospermae)",
+                    "deskripsi": "Tumbuhan berbiji terbuka yang bijinya tidak dilindungi oleh ovarium. Umumnya berupa pohon konifer dengan daun berbentuk jarum atau sisik.",
+                    "species": {
+                        "pinus-merkusii": {
+                            "nama": "Pinus Merkusii",
+                            "namaLatin": "Pinus merkusii",
+                            "region": "Southeast Asia",
+                            "gambar": "pinus.jpg",
+                            "deskripsi": "Pinus Merkusii adalah satu-satunya spesies pinus asli yang tumbuh di belahan bumi selatan. Pohon ini dapat tumbuh hingga 45 meter dan hidup di daerah pegunungan tropis. Getahnya digunakan untuk produksi terpentin dan kopal. Hutan pinus menciptakan ekosistem unik dan menjadi habitat berbagai satwa.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Pinophyta",
+                                "kelas": "Pinopsida",
+                                "ordo": "Pinales",
+                                "famili": "Pinaceae",
+                                "genus": "Pinus"
+                            },
+                            "lokasi": {
+                                "nama": "Pegunungan Tropis, Jawa & Sumatera",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Tidak Dilindungi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "Sumber Getah Pinus",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Pinus Tropis",
+                                "warna": "#8b5cf6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Pohon Jati",
+                                "Trembesi",
+                                "Pinophyta",
+                                "Plantae"
+                            ]
+                        }
+                    }
+                },
+                "orchidaceae": {
+                    "nama": "Orchidaceae (Anggrek)",
+                    "deskripsi": "Familia anggrek yang merupakan salah satu familia tumbuhan berbunga terbesar dengan lebih dari 25,000 spesies. Kebanyakan hidup sebagai epifit yang menempel pada pohon lain.",
+                    "species": {
+                        "anggrek-bulan": {
+                            "nama": "Anggrek Bulan",
+                            "namaLatin": "Phalaenopsis amabilis",
+                            "region": "Southeast Asia",
+                            "gambar": "anggrek-bulan.jpg",
+                            "deskripsi": "Anggrek Bulan adalah bunga nasional Indonesia yang memiliki keindahan menawan dengan bunga putih bersih berbentuk seperti bulan. Anggrek epifit ini tumbuh menempel pada batang pohon di hutan tropis dan memiliki nilai ekonomi tinggi sebagai tanaman hias. Bunganya dapat bertahan hingga 3 bulan dan memiliki aroma harum yang lembut. Anggrek Bulan mudah dibudidayakan dan menjadi komoditas ekspor penting.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Liliopsida",
+                                "ordo": "Asparagales",
+                                "famili": "Orchidaceae",
+                                "genus": "Phalaenopsis"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Tropis Indonesia",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Dilindungi",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "Bunga Nasional",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "Nilai Ekonomi Tinggi",
+                                "warna": "#3b82f6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Anggrek Bulan Raksasa",
+                                "Rafflesia Arnoldii",
+                                "Orchidaceae",
+                                "Plantae"
+                            ]
+                        },
+                        "anggrek-bulan-raksasa": {
+                            "nama": "Anggrek Bulan Raksasa",
+                            "namaLatin": "Phalaenopsis gigantea",
+                            "region": "Southeast Asia",
+                            "gambar": "anggrek-raksasa.jpg",
+                            "deskripsi": "Anggrek Bulan Raksasa adalah spesies anggrek dengan daun terbesar yang dapat mencapai panjang 1 meter. Bunganya harum dan dapat bertahan hingga 6 bulan. Anggrek ini endemik Kalimantan dan sangat langka di alam liar. Memiliki nilai konservasi tinggi dan dilindungi dari pengambilan liar.",
+                            "taksonomi": {
+                                "kingdom": "Plantae",
+                                "filum": "Magnoliophyta",
+                                "kelas": "Liliopsida",
+                                "ordo": "Asparagales",
+                                "famili": "Orchidaceae",
+                                "genus": "Phalaenopsis"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Kalimantan",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Dilindungi",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "Endemik Kalimantan",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Anggrek Terbesar",
+                                "warna": "#3b82f6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Anggrek Bulan",
+                                "Rafflesia Arnoldii",
+                                "Orchidaceae",
+                                "Plantae"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "animalia": {
+            "nama": "Animalia",
+            "deskripsi": "Kingdom hewan multiseluler heterotrofik yang memperoleh nutrisi dengan memakan organisme lain. Memiliki kemampuan bergerak aktif dan sistem saraf untuk merespons lingkungan.",
+            "divisions": {
+                "mammalia": {
+                    "nama": "Mammalia",
+                    "deskripsi": "Hewan menyusui berdarah panas yang memiliki kelenjar susu untuk memberi makan anaknya. Memiliki rambut atau bulu dan sistem saraf yang sangat berkembang.",
+                    "species": {
+                        "harimau-sumatera": {
+                            "nama": "Harimau Sumatera",
+                            "namaLatin": "Panthera tigris sumatrae",
+                            "region": "Sumatera, Indonesia",
+                            "gambar": "harimau-sumatera.jpg",
+                            "deskripsi": "Harimau Sumatera adalah subspesies harimau terkecil yang masih hidup dan hanya ditemukan di Pulau Sumatera. Predator puncak ini memiliki corak loreng yang lebih rapat dan gelap dibandingkan harimau lainnya. Harimau Sumatera berperan vital dalam menjaga keseimbangan ekosistem hutan. Populasinya terus menurun akibat perburuan liar dan hilangnya habitat.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Mammalia",
+                                "ordo": "Carnivora",
+                                "famili": "Felidae",
+                                "genus": "Panthera"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Hujan Sumatera",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Kritis (CR)",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "< 400 Ekor di Alam Liar",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Endemik Sumatera",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Orangutan Sumatera",
+                                "Gajah Sumatera",
+                                "Badak Jawa",
+                                "Mammalia",
+                                "Animalia"
+                            ]
+                        },
+                        "orangutan-kalimantan": {
+                            "nama": "Orangutan Kalimantan",
+                            "namaLatin": "Pongo pygmaeus",
+                            "region": "Kalimantan, Indonesia",
+                            "gambar": "orangutan.jpg",
+                            "deskripsi": "Orangutan Kalimantan adalah kera besar yang hanya ditemukan di hutan Kalimantan. Primata arboreal ini menghabiskan sebagian besar hidupnya di atas pohon. Orangutan memiliki kecerdasan tinggi dan menggunakan alat untuk mencari makan. Kehilangan habitat akibat deforestasi dan perkebunan kelapa sawit menjadi ancaman utama kelangsungan hidupnya.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Mammalia",
+                                "ordo": "Primates",
+                                "famili": "Hominidae",
+                                "genus": "Pongo"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Kalimantan",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Kritis (CR)",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "< 55.000 Individu",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Endemik Kalimantan",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Orangutan Sumatera",
+                                "Harimau Sumatera",
+                                "Gajah Sumatera",
+                                "Mammalia",
+                                "Animalia"
+                            ]
+                        },
+                        "badak-jawa": {
+                            "nama": "Badak Jawa",
+                            "namaLatin": "Rhinoceros sondaicus",
+                            "region": "Jawa, Indonesia",
+                            "gambar": "badak-jawa.jpg",
+                            "deskripsi": "Badak Jawa adalah salah satu mamalia paling langka di dunia dengan populasi tersisa hanya di Taman Nasional Ujung Kulon. Badak bercula satu ini memiliki kulit berlipat yang menyerupai baju besi. Badak Jawa adalah herbivora yang berperan penting dalam penyebaran biji tumbuhan. Perburuan cula dan hilangnya habitat menyebabkan populasinya hampir punah.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Mammalia",
+                                "ordo": "Perissodactyla",
+                                "famili": "Rhinocerotidae",
+                                "genus": "Rhinoceros"
+                            },
+                            "lokasi": {
+                                "nama": "Taman Nasional Ujung Kulon, Banten",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Kritis (CR)",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "< 80 Individu",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Mamalia Paling Langka",
+                                "warna": "#8b5cf6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Harimau Sumatera",
+                                "Gajah Sumatera",
+                                "Orangutan Kalimantan",
+                                "Mammalia",
+                                "Animalia"
+                            ]
+                        },
+                        "gajah-sumatera": {
+                            "nama": "Gajah Sumatera",
+                            "namaLatin": "Elephas maximus sumatranus",
+                            "region": "Sumatera, Indonesia",
+                            "gambar": "gajah-sumatera.jpg",
+                            "deskripsi": "Gajah Sumatera adalah subspesies gajah Asia yang hanya ditemukan di Sumatera. Gajah ini berukuran lebih kecil dibandingkan gajah Asia lainnya namun memiliki peran ekologis penting sebagai insinyur ekosistem. Gajah Sumatera membantu penyebaran biji tumbuhan dan membuka jalur di hutan. Populasinya sangat terancam akibat konflik dengan manusia dan hilangnya habitat.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Mammalia",
+                                "ordo": "Proboscidea",
+                                "famili": "Elephantidae",
+                                "genus": "Elephas"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Sumatera",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Kritis (CR)",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "< 2000 Individu",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Endemik Sumatera",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Harimau Sumatera",
+                                "Badak Jawa",
+                                "Orangutan Kalimantan",
+                                "Mammalia",
+                                "Animalia"
+                            ]
+                        }
+                    }
+                },
+                "aves": {
+                    "nama": "Aves",
+                    "deskripsi": "Burung berbulu dengan sayap yang umumnya dapat terbang. Berdarah panas dengan tulang berongga dan bertelur dengan cangkang keras.",
+                    "species": {
+                        "elang-jawa": {
+                            "nama": "Elang Jawa",
+                            "namaLatin": "Nisaetus bartelsi",
+                            "region": "Southeast Asia",
+                            "gambar": "download (39).jpg",
+                            "deskripsi": "Elang Jawa dikenal sebagai salah satu predator puncak yang hanya ditemukan di Pulau Jawa. Burung pemangsa ini memiliki ciri khas jambul menonjol yang tegak dan diyakini menjadi inspirasi lambang negara Garuda Indonesia. Ia memiliki peran vital dalam menjaga keseimbangan ekosistem hutan hujan tropis. Ancaman utama kelangsungan hidupnya adalah perburuan liar dan hilangnya habitat akibat deforestasi.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Aves",
+                                "ordo": "Accipitriformes",
+                                "famili": "Accipitridae",
+                                "genus": "Nisaetus"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Pegunungan Jawa",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Kritis",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "< 300 Pasang di Alam Liar",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Masa Hidup Hingga 15 Tahun",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Jalak Bali",
+                                "Cendrawasih Merah",
+                                "Ayam Kampung",
+                                "Aves",
+                                "Animalia"
+                            ]
+                        },
+                        "jalak-bali": {
+                            "nama": "Jalak Bali",
+                            "namaLatin": "Leucopsar rothschildi",
+                            "region": "Bali, Indonesia",
+                            "gambar": "jalak-bali.jpg",
+                            "deskripsi": "Jalak Bali adalah burung endemik Bali yang memiliki bulu putih bersih dengan ujung sayap dan ekor berwarna hitam. Burung ini menjadi simbol fauna Provinsi Bali dan termasuk salah satu burung paling langka di dunia. Habitat aslinya di Taman Nasional Bali Barat semakin terancam akibat perburuan liar untuk perdagangan burung hias. Program penangkaran dan konservasi terus dilakukan untuk menyelamatkan populasinya.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Aves",
+                                "ordo": "Passeriformes",
+                                "famili": "Sturnidae",
+                                "genus": "Leucopsar"
+                            },
+                            "lokasi": {
+                                "nama": "Taman Nasional Bali Barat",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Kritis (CR)",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "< 50 Ekor di Alam Liar",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Endemik Bali",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Elang Jawa",
+                                "Cendrawasih Merah",
+                                "Ayam Kampung",
+                                "Aves",
+                                "Animalia"
+                            ]
+                        },
+                        "cendrawasih-merah": {
+                            "nama": "Cendrawasih Merah",
+                            "namaLatin": "Paradisaea rubra",
+                            "region": "Southeast Asia",
+                            "gambar": "cendrawasih.jpg",
+                            "deskripsi": "Cendrawasih Merah adalah salah satu burung terindah di dunia yang menjadi simbol Papua. Burung jantan memiliki bulu merah menyala yang spektakuler dengan tarian kawin yang unik dan memukau. Burung ini hidup di hutan hujan dataran rendah Papua dan terancam akibat perburuan untuk bulu hiasnya serta hilangnya habitat. Cendrawasih memiliki peran penting dalam ekosistem sebagai penyebar biji.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Aves",
+                                "ordo": "Passeriformes",
+                                "famili": "Paradisaeidae",
+                                "genus": "Paradisaea"
+                            },
+                            "lokasi": {
+                                "nama": "Hutan Papua",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Hampir Terancam",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "Dilindungi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "CITES Appendix II",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Burung Surga",
+                                "warna": "#8b5cf6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Elang Jawa",
+                                "Jalak Bali",
+                                "Ayam Kampung",
+                                "Aves",
+                                "Animalia"
+                            ]
+                        }
+                    }
+                },
+                "reptilia": {
+                    "nama": "Reptilia",
+                    "deskripsi": "Hewan bersisik berdarah dingin yang bernapas dengan paru-paru. Kulit mereka kering dan bersisik untuk mencegah kehilangan air.",
+                    "species": {
+                        "komodo": {
+                            "nama": "Komodo",
+                            "namaLatin": "Varanus komodoensis",
+                            "region": "Southeast Asia",
+                            "gambar": "komodo.jpg",
+                            "deskripsi": "Komodo adalah kadal terbesar di dunia yang hanya ditemukan di beberapa pulau di Nusa Tenggara Timur. Predator puncak ini dapat tumbuh hingga 3 meter dan memiliki gigitan beracun yang mematikan. Komodo adalah hewan purba yang telah ada sejak jutaan tahun lalu. Habitat alaminya dilindungi di Taman Nasional Komodo sebagai upaya konservasi spesies langka ini.",
+                            "taksonomi": {
+                                "kingdom": "Animalia",
+                                "filum": "Chordata",
+                                "kelas": "Reptilia",
+                                "ordo": "Squamata",
+                                "famili": "Varanidae",
+                                "genus": "Varanus"
+                            },
+                            "lokasi": {
+                                "nama": "Taman Nasional Komodo, Nusa Tenggara Timur",
+                                "gambarPeta": ""
+                            },
+                            "status": [
+                                {
+                                "label": "Rentan (VU)",
+                                "warna": "#f59e0b"
+                                },
+                                {
+                                "label": "Dilindungi Penuh",
+                                "warna": "#ef4444"
+                                },
+                                {
+                                "label": "Kadal Terbesar di Dunia",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Endemik Indonesia",
+                                "warna": "#10b981"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Penyu Hijau",
+                                "Buaya Muara",
+                                "Reptilia",
+                                "Animalia"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "fungi": {
+            "nama": "Fungi",
+            "deskripsi": "Kingdom jamur yang berperan sebagai pengurai dan simbiosis. Organisme eukariotik yang memperoleh nutrisi dengan menyerap zat organik dari lingkungan dan memiliki dinding sel dari kitin.",
+            "divisions": {
+                "basidiomycota": {
+                    "nama": "Basidiomycota",
+                    "deskripsi": "Jamur dengan basidium yang umumnya berbentuk payung. Termasuk jamur kayu, jamur beracun, dan jamur yang dapat dimakan.",
+                    "species": {
+                        "jamur-tiram": {
+                            "nama": "Jamur Tiram",
+                            "namaLatin": "Pleurotus ostreatus",
+                            "region": "Worldwide",
+                            "gambar": "jamur-tiram.jpg",
+                            "deskripsi": "Jamur Tiram adalah jamur pangan yang populer dan mudah dibudidayakan. Jamur ini tumbuh di kayu lapuk dan memiliki tekstur yang lembut dengan rasa gurih. Jamur tiram kaya akan protein, vitamin, dan mineral yang baik untuk kesehatan. Budidaya jamur tiram menjadi usaha pertanian yang menguntungkan karena siklus panennya yang cepat.",
+                            "taksonomi": {
+                                "kingdom": "Fungi",
+                                "filum": "Basidiomycota",
+                                "kelas": "Agaricomycetes",
+                                "ordo": "Agaricales",
+                                "famili": "Pleurotaceae",
+                                "genus": "Pleurotus"
+                            },
+                            "lokasi": {
+                                "nama": "Budidaya di Seluruh Indonesia",
+                                "gambarPeta": ""
+                            }, 
+                            "status": [
+                                {
+                                "label": "Tidak Dilindungi",
+                                "warna": "#10b981"
+                                },
+                                {
+                                "label": "Mudah Dibudidayakan",
+                                "warna": "#3b82f6"
+                                },
+                                {
+                                "label": "Nilai Ekonomi Tinggi",
+                                "warna": "#8b5cf6"
+                                }
+                            ],
+                            "rekomendasi": [
+                                "Jamur Kuping",
+                                "Jamur Shiitake",
+                                "Basidiomycota",
+                                "Fungi"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

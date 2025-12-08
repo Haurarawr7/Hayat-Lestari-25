@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HayatLestari - Konservasi Biodiversitas Indonesia</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-globe2"></i>
+                    <b>HayatLestari</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                            Ensiklopedia
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Maincontentpage.html">Flora & Fauna</a></li>
+                        </ul>
+                    </li>
+                        
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="laporan.html">Lapor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#donasi">Donasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#adopsi">Adopsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#Tentang">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" >Sign in/Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section with Search -->
+    <section class=" py-5 hero-section bg-danger d-flex align-items-center">
+        <div class="container">
+            <div class="py-3">
+                <h1 class="text-center text-light"> <b>
+                    Flora dan Fauna
+                </b></h1>
+                <p class="text-center text-light"> 
+                    Jelajahi keanekaragaman hayati Indonesia yang dilindungi 
+                </p>
+            
+            </div>
+            <div class="row justify-content-center px-5">
+                <div class="col-lg-8 bg-light rounded py-2">
+                    <div class="search-box d-flex">
+                        <input type="text" class="form-control col-lg-9" id="searchInput" 
+                            placeholder="Cari spesies, kingdom, atau divisi..." 
+                            onkeyup="searchSpecies()">
+                        
+                        <a class="btn btn-success">
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Table Content -->
+    <section class="table-section">
+        <div class=" py-3 container">
+                <div class="py-3 col-lg-5 ">
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <button class="btn btn-outline-success filter-btn active" onclick="filterByKingdom('all')">
+                            <i class="bi bi-grid"></i> Semua
+                        </button>
+                        <button class="btn btn-outline-success filter-btn" onclick="filterByKingdom('plantae')">
+                            <i class="bi bi-tree"></i> Plantae
+                        </button>
+                        <button class="btn btn-outline-success filter-btn" onclick="filterByKingdom('animalia')">
+                            <i class="bi bi-bug"></i> Animalia
+                        </button>
+                        <button class="btn btn-outline-success filter-btn" onclick="filterByKingdom('fungi')">
+                            <i class="bi bi-flower1"></i> Fungi
+                        </button>
+                    </div>
+                </div>
+
+            <div class="table-container border" id="tableContainer">
+                <div id="tableContent" style="display: none;">
+                    <table class="table custom-table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nama Spesies</th>
+                                <th>Nama Latin</th>
+                                <th>Kingdom</th>
+                                <th>Divisi/Kelas</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Data akan dimuat di sini -->
+                        </tbody>
+                    </table>
+
+                    <div class="pagination-container">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="text-muted" id="pageInfo">
+                                Menampilkan <span id="startItem">1</span>-<span id="endItem">5</span> dari <span id="totalItems">0</span> spesies
+                            </div>
+                            <nav>
+                                <ul class="pagination mb-0" id="pagination">
+                                    <!-- Pagination akan dimuat di sini -->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script class="module" src="maincontent.js"></script>
+
+</html>
