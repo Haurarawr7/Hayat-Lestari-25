@@ -347,7 +347,7 @@ function displayRelatedSpecies(relatedSpecies, container) {
 }
 
 
-document.addEventListener('ContentLoaded', async function() {
+document.addEventListener('DOMContentLoaded', async function() {
   
   // Load species data
   await loadSpeciesData();
