@@ -1,5 +1,5 @@
 
-consolelog("Kasus.js berhasil dimuat")
+console.log("Kasus.js berhasil dimuat")
 
 let casesData = [];
 
@@ -73,8 +73,6 @@ function renderCases(filter = 'all') {
         const card = `
             <div class="col-md-6 col-lg-4">
                 <div class="case-card h-100">
-                    <img src="${kasus.image}" class="case-image" alt="${kasus.species}"
-                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22200%22%3E%3Crect fill=%22%2310b981%22 width=%22400%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22white%22 font-size=%2260%22%3E${kasus.species.charAt(0)}%3C/text%3E%3C/svg%3E';">
                     <div class="p-4">
                         <div class="mb-2 d-flex align-items-center">
                             <span class="status-badge ${statusClass}">${statusText}</span>
@@ -135,9 +133,6 @@ function showCaseDetail(id) {
 
     document.getElementById('modalTitle').textContent = kasus.title;
     document.getElementById('modalBody').innerHTML = `
-        <img src="${kasus.image}" class="w-100 rounded mb-4" style="max-height: 300px; object-fit: cover;"
-             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%2310b981%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22white%22 font-size=%2280%22%3E${kasus.species.charAt(0)}%3C/text%3E%3C/svg%3E';">
-        
         <div class="mb-3">
             <span class="status-badge ${statusClass}">${statusText}</span>
             ${priorityBadge}

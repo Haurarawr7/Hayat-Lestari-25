@@ -37,7 +37,7 @@
                             Ensiklopedia
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Maincontentpage.html">Flora & Fauna</a></li>
+                            <li><a class="dropdown-item" href="Maincontentpagelogin.html">Flora & Fauna</a></li>
                         </ul>
                     </li>
                         
@@ -45,16 +45,17 @@
                         <a class="nav-link fw-semibold" href="laporan.html">Lapor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#donasi">Donasi</a>
+                        <a class="nav-link fw-semibold" href="aboutlogin.html">Tentang Kami</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#adopsi">Adopsi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="about.html">Tentang Kami</a>
-                    </li>
-                    <li class="nav-item" onclick="showRegisterModal()">
-                        <a class="nav-link fw-semibold" >Sign in/Login</a>
+                    <li class="nav-item dropdown d-none px-3" id="user-dropdown">
+                        <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span id="navbar-user-name" class="me-2"></span>
+                            <img id="navbar-user-photo" src="" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                            <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#" onclick="handleLogout()">Logout</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>

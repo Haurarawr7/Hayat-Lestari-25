@@ -43,9 +43,7 @@
                             "rekomendasi": [
                                 "Pohon Mahoni",
                                 "Trembesi",
-                                "Pohon Durian",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Pohon Durian"
                             ]
                         },
                         "pohon-mahoni": {
@@ -83,9 +81,7 @@
                             "rekomendasi": [
                                 "Pohon Jati",
                                 "Trembesi",
-                                "Pohon Karet",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Pohon Karet"
                             ]
                         },
                         "rafflesia-arnoldii": {
@@ -127,9 +123,7 @@
                             "rekomendasi": [
                                 "Bunga Bangkai",
                                 "Anggrek Bulan",
-                                "Pohon Durian",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Pohon Durian"
                             ]
                         },
                         "bunga-bangkai": {
@@ -167,9 +161,7 @@
                             "rekomendasi": [
                                 "Rafflesia Arnoldii",
                                 "Anggrek Bulan",
-                                "Trembesi",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Trembesi"
                             ]
                         },
                         "trembesi": {
@@ -207,9 +199,7 @@
                             "rekomendasi": [
                                 "Pohon Jati",
                                 "Pohon Mahoni",
-                                "Pohon Karet",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Pohon Karet"
                             ]
                         },
                         "pohon-durian": {
@@ -247,9 +237,7 @@
                             "rekomendasi": [
                                 "Mangga",
                                 "Pohon Karet",
-                                "Trembesi",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Trembesi"
                             ]
                         },
                         "mangga": {
@@ -287,9 +275,7 @@
                             "rekomendasi": [
                                 "Pohon Durian",
                                 "Pohon Karet",
-                                "Trembesi",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Trembesi"
                             ]
                         },
                         "pohon-karet": {
@@ -327,9 +313,7 @@
                             "rekomendasi": [
                                 "Pohon Jati",
                                 "Trembesi",
-                                "Mangga",
-                                "Magnoliophyta",
-                                "Plantae"
+                                "Mangga"
                             ]
                         }
                     }
@@ -372,9 +356,7 @@
                             ],
                             "rekomendasi": [
                                 "Pohon Jati",
-                                "Trembesi",
-                                "Pinophyta",
-                                "Plantae"
+                                "Trembesi"
                             ]
                         }
                     }
@@ -417,9 +399,7 @@
                             ],
                             "rekomendasi": [
                                 "Anggrek Bulan Raksasa",
-                                "Rafflesia Arnoldii",
-                                "Orchidaceae",
-                                "Plantae"
+                                "Rafflesia Arnoldii"
                             ]
                         },
                         "anggrek-bulan-raksasa": {
@@ -456,9 +436,7 @@
                             ],
                             "rekomendasi": [
                                 "Anggrek Bulan",
-                                "Rafflesia Arnoldii",
-                                "Orchidaceae",
-                                "Plantae"
+                                "Rafflesia Arnoldii"
                             ]
                         }
                     }
@@ -512,9 +490,7 @@
                             "rekomendasi": [
                                 "Orangutan Sumatera",
                                 "Gajah Sumatera",
-                                "Badak Jawa",
-                                "Mammalia",
-                                "Animalia"
+                                "Badak Jawa"
                             ]
                         },
                         "orangutan-kalimantan": {
@@ -556,9 +532,7 @@
                             "rekomendasi": [
                                 "Orangutan Sumatera",
                                 "Harimau Sumatera",
-                                "Gajah Sumatera",
-                                "Mammalia",
-                                "Animalia"
+                                "Gajah Sumatera"
                             ]
                         },
                         "badak-jawa": {
@@ -600,9 +574,7 @@
                             "rekomendasi": [
                                 "Harimau Sumatera",
                                 "Gajah Sumatera",
-                                "Orangutan Kalimantan",
-                                "Mammalia",
-                                "Animalia"
+                                "Orangutan Kalimantan"
                             ]
                         },
                         "gajah-sumatera": {
@@ -644,9 +616,7 @@
                             "rekomendasi": [
                                 "Harimau Sumatera",
                                 "Badak Jawa",
-                                "Orangutan Kalimantan",
-                                "Mammalia",
-                                "Animalia"
+                                "Orangutan Kalimantan"
                             ]
                         },
                         "orangutan-sumatera": {
@@ -688,9 +658,7 @@
                             "rekomendasi": [
                                 "Orangutan Kalimantan",
                                 "Harimau Sumatera",
-                                "Gajah Sumatera",
-                                "Mammalia",
-                                "Animalia"
+                                "Gajah Sumatera"
                             ]
                         }
                     }
@@ -738,9 +706,7 @@
                             "rekomendasi": [
                                 "Jalak Bali",
                                 "Cendrawasih Merah",
-                                "Ayam Kampung",
-                                "Aves",
-                                "Animalia"
+                                "Ayam Kampung"
                             ]
                         },
                         "jalak-bali": {
@@ -782,9 +748,7 @@
                             "rekomendasi": [
                                 "Elang Jawa",
                                 "Cendrawasih Merah",
-                                "Ayam Kampung",
-                                "Aves",
-                                "Animalia"
+                                "Ayam Kampung"
                             ]
                         },
                         "cendrawasih-merah": {
@@ -826,9 +790,7 @@
                             "rekomendasi": [
                                 "Elang Jawa",
                                 "Jalak Bali",
-                                "Ayam Kampung",
-                                "Aves",
-                                "Animalia"
+                                "Ayam Kampung"
                             ]
                         },
                         "ayam-kampung": {
@@ -866,9 +828,7 @@
                             "rekomendasi": [
                                 "Elang Jawa",
                                 "Jalak Bali",
-                                "Cendrawasih Merah",
-                                "Aves",
-                                "Animalia"
+                                "Cendrawasih Merah"
                             ]
                             }
                     }
@@ -915,9 +875,7 @@
                             ],
                             "rekomendasi": [
                                 "Penyu Hijau",
-                                "Buaya Muara",
-                                "Reptilia",
-                                "Animalia"
+                                "Buaya Muara"
                             ]
                         },
                         "penyu-hijau": {
@@ -958,9 +916,7 @@
                             ],
                             "rekomendasi": [
                                 "Komodo",
-                                "Buaya Muara",
-                                "Reptilia",
-                                "Animalia"
+                                "Buaya Muara"
                             ]
                         },
                         "buaya-muara": {
@@ -1001,9 +957,7 @@
                             ],
                             "rekomendasi": [
                                 "Komodo",
-                                "Penyu Hijau",
-                                "Reptilia",
-                                "Animalia"
+                                "Penyu Hijau"
                             ]
                         }
                     }
@@ -1052,9 +1006,7 @@
                             ],
                             "rekomendasi": [
                                 "Jamur Kuping",
-                                "Jamur Shiitake",
-                                "Basidiomycota",
-                                "Fungi"
+                                "Jamur Shiitake"
                             ]
                         },
                         "jamur-kuping": {
@@ -1091,9 +1043,7 @@
                             ],
                             "rekomendasi": [
                                 "Jamur Tiram",
-                                "Jamur Shiitake",
-                                "Basidiomycota",
-                                "Fungi"
+                                "Jamur Shiitake"
                             ]
                         },
                         "jamur-shiitake": {
@@ -1134,9 +1084,7 @@
                             ],
                             "rekomendasi": [
                                 "Jamur Tiram",
-                                "Jamur Kuping",
-                                "Basidiomycota",
-                                "Fungi"
+                                "Jamur Kuping"
                             ]
                             }
                     }

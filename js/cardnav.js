@@ -2,21 +2,20 @@
 
 console.log("cardnav.js berhasil dimuat")
 
-// Fungsi untuk mengubah data hierarki menjadi Array datar
+// Fungsi untuk mengubah data hierarki menjadi Array datar (dengan menyimpan ID)
 function flattenSpeciesData(data) {
     const flattenedArray = [];
 
-    // Mengiterasi melalui setiap Kingdom (plantae, animalia)
     for (const kingdomKey in data.kingdoms) {
         const kingdom = data.kingdoms[kingdomKey];
 
-        // Mengiterasi melalui setiap Division (magnoliophyta, mammalia)
         for (const divisionKey in kingdom.divisions) {
             const division = kingdom.divisions[divisionKey];
 
-            // Mengiterasi melalui setiap Species
             for (const speciesKey in division.species) {
                 const species = division.species[speciesKey];
+                
+                species.id = speciesKey;
                 
                 // Menambahkan objek spesies ke dalam Array datar
                 flattenedArray.push(species);
@@ -61,7 +60,7 @@ async function renderSpeciesCards() {
   
   displaySpecies.forEach((species, index) => {
     // Validasi dengan field yang benar
-    if (!species || !species.nama) {
+    if (!species || !species.nama || !species.id) {
         console.warn(`Skipping invalid species at index ${index}:`, species);
         return;
     }
@@ -76,7 +75,7 @@ async function renderSpeciesCards() {
     col.innerHTML = `
       <div class="species-card position-relative rounded overflow-hidden shadow" 
           style="height: 450px; cursor: pointer;"
-          onclick="navigateTocontentpage('${species.nama}')">
+          onclick="navigateTocontentpage('${species.id}')">
         <img src="${species.gambar || 'placeholder.jpg'}" 
              class="w-100 h-100" 
              style="object-fit: cover;"
@@ -122,7 +121,7 @@ async function updateCardsView() {
   cardsContainer.innerHTML = '';
   
   displaySpecies.forEach(species => {
-    if (!species || !species.nama) {
+    if (!species || !species.nama || !species.id) {
         console.warn('Skipping invalid species data:', species);
         return;
     }
@@ -137,7 +136,7 @@ async function updateCardsView() {
     col.innerHTML = `
       <div class="species-card position-relative rounded overflow-hidden shadow" 
           style="height: 450px; cursor: pointer;"
-          onclick="navigateTocontentpage('${species.nama}')">
+          onclick="navigateTocontentpage('${species.id}')">
         <img src="${species.gambar || 'placeholder.jpg'}" 
              class="w-100 h-100" 
              style="object-fit: cover;"
@@ -155,11 +154,10 @@ async function updateCardsView() {
   });
 }
 
-// Fungsi untuk navigasi ke halaman detail
-function navigateTocontentpage(speciesName) {
-  
-  // Navigasi ke halaman content dengan parameter nama spesies
-  window.location.href = `./contentpagednm.html?species=${encodedName}`;
+// Fungsi untuk navigasi ke halaman detail (menggunakan ID)
+function navigateTocontentpage(speciesId) {
+  console.log('Navigating with ID:', speciesId);
+  window.location.href = `./contentpagednm.html?id=${speciesId}`;
 }
 
 // Export ke window agar bisa dipanggil dari onclick
@@ -171,7 +169,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     await renderSpeciesCards();
   }
 });
-
 
 window.slideLeft = slideLeft;
 window.slideRight = slideRight;

@@ -227,7 +227,6 @@ async function handleGoogleSignIn() {
     const result = await signInWithPopup(auth, provider);
     const user = result.user;
     
-    console.log("Google Sign In Success:", user);
     showAlert('registerAlert', `Selamat datang, ${user.displayName}!`, 'success');
     showAlert('loginAlert', `Selamat datang, ${user.displayName}!`, 'success');
     
@@ -261,10 +260,6 @@ async function handleEmailRegister(e) {
   const agreed = document.getElementById('agreeRegister').checked;
   
   // Validation
-  if (!agreed) {
-    showAlert('registerAlert', 'Anda harus menyetujui syarat dan ketentuan', 'warning');
-    return;
-  }
   
   if (password !== confirmPass) {
     showAlert('registerAlert', 'Password dan konfirmasi password tidak sama', 'warning');

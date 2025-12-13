@@ -1,4 +1,3 @@
-
 console.log("konten.js berhasil dimuat")
 
 // Fungsi untuk mendapatkan parameter dari URL
@@ -7,8 +6,10 @@ function getUrlParameter(name) {
     return urlParams.get(name);
 }
 
-// Fungsi untuk mencari data berdasarkan ID di struktur nested
+// Fungsi untuk mencari data berdasarkan ID
 function findSpeciesById(jsonData, speciesId) {
+    console.log('Mencari species dengan ID:', speciesId);
+    
     // kingdom
     for (const kingdomKey in jsonData.kingdoms) {
         const kingdom = jsonData.kingdoms[kingdomKey];
@@ -19,6 +20,9 @@ function findSpeciesById(jsonData, speciesId) {
             
             // spesies
             for (const speciesKey in division.species) {
+                console.log(`Memeriksa species key: ${speciesKey}`);
+                
+                // Cek berdasarkan key (ID)
                 if (speciesKey === speciesId) {
                     return division.species[speciesKey];
                 }
@@ -34,20 +38,29 @@ async function loadData() {
         // ambil ID dari URL parameter
         const id = getUrlParameter('id');
         
+        if (!id) {
+            throw new Error('Parameter ID tidak ditemukan di URL');
+        }
+        
+        console.log('ID dari URL:', id);
+        
         // fetch data dari file JSON
         const response = await fetch('./json/test.json');
         if (!response.ok) throw new Error('Gagal memuat data');
         
         const jsonData = await response.json();
+        console.log('Data JSON berhasil dimuat');
         
         // cari data species berdasarkan ID
         const data = findSpeciesById(jsonData, id);
         
         if (!data) {
-            throw new Error('Data tidak ditemukan');
+            throw new Error(`Data dengan ID "${id}" tidak ditemukan`);
         }
         
-        // Update 
+        console.log('Data ditemukan:', data);
+        
+        // Update halaman dengan data
         document.getElementById('mainImage').src = data.gambar;
         document.getElementById('mainImage').alt = data.nama;
         document.getElementById('namaUtama').textContent = data.nama;
@@ -100,4 +113,4 @@ async function loadData() {
 }
 
 // Load data saat halaman dimuat
-document.addEventListener('DOMContentLoaded', loadData); 
+document.addEventListener('DOMContentLoaded', loadData);

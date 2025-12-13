@@ -1,5 +1,5 @@
 
-console.log("index.js berhasil dimuat");
+console.log("search.js berhasil dimuat");
 
 let allSpecies = [];
 let rawData = null; // Simpan data mentah untuk referensi
@@ -12,13 +12,10 @@ async function loadSpeciesData() {
       throw new Error('Gagal memuat data');
     }
     rawData = await response.json();
-    
-    console.log('=== DEBUG: Struktur JSON ===');
-    console.log('Raw data:', rawData);
+  
     
     allSpecies = [];
     
-    // Flatten struktur nested JSON
     if (rawData.kingdoms) {
       Object.entries(rawData.kingdoms).forEach(([kingdomKey, kingdom]) => {
         
@@ -36,13 +33,12 @@ async function loadSpeciesData() {
                   region: species.region,
                   image: species.gambar,
                   description: species.deskripsi,
-                  category: division.nama, // Nama division sebagai kategori
+                  category: division.nama, 
                   kingdom: kingdom.nama,
                   taxonomy: species.taksonomi,
                   location: species.lokasi,
                   status: species.status,
                   recommendations: species.rekomendasi,
-                  // Tambahan info
                   kingdomKey: kingdomKey,
                   divisionKey: divisionKey
                 };
@@ -66,7 +62,6 @@ async function loadSpeciesData() {
   }
 }
 
-// ===== SEARCH SPECIES =====
 function searchSpecies(query) {
   if (!Array.isArray(allSpecies)) {
     console.error("allSpecies bukan Array:", allSpecies);
@@ -92,7 +87,6 @@ function searchSpecies(query) {
   });
 }
 
-// ===== DISPLAY SEARCH RESULTS =====
 function displaySearchResults(results, container) {
   if (!container) return;
   
@@ -159,12 +153,12 @@ function displaySearchResults(results, container) {
   container.appendChild(resultsList);
 }
 
-// navigasi ke contentF
+// navigasi ke content
 function navigateTocontentpage(speciesId) {
   const species = allSpecies.find(s => s.id === speciesId);
   if (species) {
     sessionStorage.setItem('selectedSpecies', JSON.stringify(species));
-    window.location.href = `contentpagednm.html?id=${speciesId}`;
+    window.location.href = `./contentpagednm.html?id=${speciesId}`;
   } else {
     console.error('Species not found:', speciesId);
   }
@@ -223,13 +217,6 @@ function setupSearchInput(inputElement, resultsContainer) {
   document.addEventListener('click', function(e) {
     if (!inputElement.contains(e.target) && !resultsContainer.contains(e.target)) {
       resultsContainer.style.display = 'none';
-    }
-  });
-  
-  // Event: Focus to show results
-  inputElement.addEventListener('focus', function() {
-    if (resultsContainer.children.length > 0) {
-      resultsContainer.style.display = 'block';
     }
   });
 }

@@ -19,6 +19,14 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-dark);
+            color: #80b78b;
+            min-height: 100vh;
+        }
+    </style>
 </head>
 <body>
 
@@ -50,8 +58,16 @@
                     <li class="nav-item">
                         <a class="nav-link fw-semibold" href="#">Tentang Kami</a>
                     </li>
-                    <li class="nav-item" onclick="showRegisterModal()">
-                        <a class="nav-link fw-semibold" >Sign in/Login</a>
+                    <!-- User Dropdown (Nama dan Foto Profil) -->
+                    <li class="nav-item dropdown d-none px-3" id="user-dropdown">
+                        <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span id="navbar-user-name" class="me-2"></span>
+                            <img id="navbar-user-photo" src="" alt="Profile" class="rounded-circle me-2" style="width: 30px; height: 30px;">
+                            <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#" onclick="handleLogout()">Logout</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>

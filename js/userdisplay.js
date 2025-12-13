@@ -101,7 +101,7 @@ async function handleLogout() {
     console.log("Logout successful");
     
     alert('Logout berhasil!');
-    window.location.href = 'index.html'; // buat balik ke index (bisi lupa)
+    window.location.href = 'index.html'; // buat balik ke index 
     
   } catch (error) {
     console.error("Logout error:", error);
@@ -128,7 +128,7 @@ function protectPage() {
   });
 }
 
-document.addEventListener('ContentLoaded', async function() {
+document.addEventListener('DOMContentLoaded', async function() {
   console.log("munculin display user");
   
   // yang di protek apa aja?
@@ -152,7 +152,7 @@ document.addEventListener('ContentLoaded', async function() {
   });
 });
 
-// ===== EXPORT FUNCTIONS TO WINDOW =====
+
 window.handleLogout = handleLogout;
 window.protectPage = protectPage;
 

@@ -1,10 +1,17 @@
+<!--Hayat Lestari-->
+<!--Website UAS-->
+<!-- Website Mengenai Pemeliharaan Hewan dan Tumbuhan yang Dilindungi terutama di Indonesia -->
+
+<!-- kasus-->
+
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pantau Kasus - HayatLestari</title>
-    
+    <title>HayatLestari</title>
+
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
@@ -25,7 +32,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto align-items-center">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" 
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,17 +40,15 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="Maincontentpage.html">Flora & Fauna</a></li>
-                            <li><a class="dropdown-item" href="Maincontentpage.html">Article</a></li>
                         </ul>
                     </li>
                         
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="laporan.html">Lapor</a>
+                        <a class="nav-link fw-semibold">Lapor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="about.html">Tentang Kami</a>
+                        <a class="nav-link fw-semibold" href="#">Tentang Kami</a>
                     </li>
-                       
                     <!-- User Dropdown (Nama dan Foto Profil) -->
                     <li class="nav-item dropdown d-none px-3" id="user-dropdown">
                         <a class="nav-link d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,10 +76,10 @@
     </section>
 
     <!-- Stats Section -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-white">
         <div class="container">
             <div class="row g-4">
-                <div class="col-md-3">
+                <div class="col-md-3 ">
                     <div class="stats-box">
                         <div class="stats-number" id="totalKasus">0</div>
                         <div class="text-muted">Total Kasus</div>
@@ -103,21 +108,27 @@
     </section>
 
     <!-- Kasus Section -->
-    <section class="py-5">
+    <section class="py-5 bg-light">
         <div class="container">
-            <div class="row g-4" id="casesContainer">
-            </div>
+            <div class="row g-4" id="casesContainer"></div>
         </div>
     </section>
 
-    <div class="modal fade case-detail-modal" id="caseDetailModal" tabindex="-1">
+    <!-- Modal -->
+    <div class="modal fade" id="caseDetailModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header border-0">
-                    <h5 class="modal-title fw-bold" id="modalTitle">Detail Kasus</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="modalTitle">Detail Kasus</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="modalBody">
+                    <!-- Konten akan diisi oleh JavaScript -->
+                    <div class="text-center py-5">
+                        <div class="spinner-border text-success" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,4 +147,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/kasus.js"></script>
+    <script type="module" src="./js/modal.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/cardnav.js"></script>
 </html>
