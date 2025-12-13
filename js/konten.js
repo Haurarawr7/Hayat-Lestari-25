@@ -1,3 +1,6 @@
+
+console.log("konten.js berhasil dimuat")
+
 // Fungsi untuk mendapatkan parameter dari URL
 function getUrlParameter(name) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -6,15 +9,15 @@ function getUrlParameter(name) {
 
 // Fungsi untuk mencari data berdasarkan ID di struktur nested
 function findSpeciesById(jsonData, speciesId) {
-    // Loop through kingdoms
+    // kingdom
     for (const kingdomKey in jsonData.kingdoms) {
         const kingdom = jsonData.kingdoms[kingdomKey];
         
-        // Loop through divisions
+        // divisi
         for (const divisionKey in kingdom.divisions) {
             const division = kingdom.divisions[divisionKey];
             
-            // Loop through species
+            // spesies
             for (const speciesKey in division.species) {
                 if (speciesKey === speciesId) {
                     return division.species[speciesKey];
@@ -28,32 +31,29 @@ function findSpeciesById(jsonData, speciesId) {
 // Fungsi untuk memuat data dari JSON
 async function loadData() {
     try {
-        // Ambil ID dari URL parameter (default: elang-jawa)
-        const id = getUrlParameter('id') || 'elang-jawa';
+        // ambil ID dari URL parameter
+        const id = getUrlParameter('id');
         
-        // Fetch data dari file JSON
-        const response = await fetch('test.json');
+        // fetch data dari file JSON
+        const response = await fetch('./json/test.json');
         if (!response.ok) throw new Error('Gagal memuat data');
         
         const jsonData = await response.json();
         
-        // Cari data species berdasarkan ID
+        // cari data species berdasarkan ID
         const data = findSpeciesById(jsonData, id);
         
         if (!data) {
             throw new Error('Data tidak ditemukan');
         }
         
-        // Update konten halaman
+        // Update 
         document.getElementById('mainImage').src = data.gambar;
         document.getElementById('mainImage').alt = data.nama;
         document.getElementById('namaUtama').textContent = data.nama;
         document.getElementById('namaLatin').textContent = `${data.namaLatin} - ${data.region}`;
-        
-        // Update deskripsi dengan nama di awal bold
         document.getElementById('deskripsi').innerHTML = `<b style="font-size: 32px;">${data.nama}</b> ${data.deskripsi.replace(data.nama, '')}`;
         
-        // Update taksonomi
         const taksonomiDiv = document.getElementById('taksonomi');
         taksonomiDiv.innerHTML = '';
         for (const [key, value] of Object.entries(data.taksonomi)) {
@@ -65,11 +65,9 @@ async function loadData() {
             `;
         }
         
-        // Update lokasi
         document.getElementById('petaLokasi').src = data.lokasi.gambarPeta;
         document.getElementById('namaLokasi').textContent = data.lokasi.nama;
-        
-        // Update status badges
+         
         const statusDiv = document.getElementById('statusBadges');
         statusDiv.innerHTML = '';
         data.status.forEach(status => {
@@ -80,7 +78,6 @@ async function loadData() {
             `;
         });
         
-        // Update rekomendasi
         const rekomendasiList = document.getElementById('rekomendasiList');
         rekomendasiList.innerHTML = '';
         data.rekomendasi.forEach(item => {
@@ -91,7 +88,6 @@ async function loadData() {
             `;
         });
         
-        // Tampilkan konten, sembunyikan loading
         document.getElementById('loading').classList.add('d-none');
         document.getElementById('content').classList.remove('d-none');
         
@@ -104,4 +100,4 @@ async function loadData() {
 }
 
 // Load data saat halaman dimuat
-document.addEventListener('DOMContentLoaded', loadData);
+document.addEventListener('DOMContentLoaded', loadData); 

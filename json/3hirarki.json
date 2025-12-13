@@ -17,7 +17,7 @@
                             "nama": "Pohon Jati",
                             "latin": "Tectona Grandis",
                             "region": "Southeast Asia",
-                            "imageFile": "jati.png",
+                            "imageFile": "pohon-jati.png",
                             "statusPerlindungan": "Dilindungi",
                             "habitatUtama": "Hutan tropis"
                         },
@@ -27,7 +27,7 @@
                             "nama": "Pohon Mahoni",
                             "latin": "Swietenia Macrophylla",
                             "region": "Central America",
-                            "imageFile": "mahoni.png",
+                            "imageFile": "pohon-mahoni.png",
                             "statusPerlindungan": "Dilindungi",
                             "habitatUtama": "Hutan tropis"
                         },
@@ -37,7 +37,7 @@
                             "nama": "Rafflesia Arnoldii",
                             "latin": "Rafflesia Arnoldii",
                             "region": "Southeast Asia",
-                            "imageFile": "rafflesia.png",
+                            "imageFile": "raflesia-arnoldi",
                             "statusPerlindungan": "Dilindungi",
                             "habitatUtama": "Hutan hujan Sumatera"
                         },

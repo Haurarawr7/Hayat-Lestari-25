@@ -1,4 +1,5 @@
-console.log("File js berhasil dimuat")
+
+console.log("maincontent.js berhasil dimuat")
 
 let allSpeciesData = [];
 let filteredData = [];
@@ -9,8 +10,7 @@ let currentFilter = 'all';
 // Load data dari file JSON
 async function loadData() {
     try {
-        // Fetch data dari file JSON (ganti 'test.json' dengan nama file JSON Anda)
-        const response = await fetch('test.json');
+        const response = await fetch('./json/test.json');
         if (!response.ok) throw new Error('Gagal memuat data');
         
         const jsonData = await response.json();
@@ -82,7 +82,7 @@ function renderTable() {
             ? `<span class="badge badge-custom" style="background: ${species.status[0].warna};">
                 ${species.status[0].label}
                </span>`
-            : '-';
+            : '-'; 
 
         row.innerHTML = `
             <td><strong>${species.nama}</strong></td>
@@ -112,7 +112,7 @@ function renderPagination() {
     </a>`;
     pagination.appendChild(prevLi);
 
-    // Page numbers
+    // nomor halaman
     let startPage = Math.max(1, currentPage - 2);
     let endPage = Math.min(totalPages, startPage + 4);
 
@@ -127,7 +127,7 @@ function renderPagination() {
         pagination.appendChild(li);
     }
 
-    // Next button
+    // next button
     const nextLi = document.createElement('li');
     nextLi.className = `page-item ${currentPage === totalPages ? 'disabled' : ''}`;
     nextLi.innerHTML = `<a class="page-link" href="#" onclick="changePage(${currentPage + 1}); return false;">

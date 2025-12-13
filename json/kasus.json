@@ -1,0 +1,356 @@
+{
+  "kasus": [
+    {
+      "id": 1,
+      "title": "Perburuan Harimau Sumatera di Aceh",
+      "location": "Aceh, Sumatera",
+      "date": "15 November 2024",
+      "status": "penyelidikan",
+      "species": "Harimau Sumatera",
+      "description": "Laporan perburuan liar terhadap Harimau Sumatera di kawasan hutan lindung Aceh. Tim sedang melakukan penyelidikan lapangan untuk mengidentifikasi pelaku dan mencegah perburuan lebih lanjut.",
+      "image": "./img/harimau-sumatra.jpg",
+      "reporter": "Masyarakat Lokal",
+      "priority": "high",
+      "updates": [
+        {
+          "date": "15 Nov 2024",
+          "status": "completed",
+          "text": "Laporan diterima dan diverifikasi"
+        },
+        {
+          "date": "18 Nov 2024",
+          "status": "completed",
+          "text": "Tim investigasi diterjunkan ke lokasi"
+        },
+        {
+          "date": "22 Nov 2024",
+          "status": "current",
+          "text": "Penyelidikan lapangan berlangsung"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Penangkapan tersangka"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Proses hukum"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Penebangan Pohon Jati Ilegal",
+      "location": "Jawa Tengah",
+      "date": "10 November 2024",
+      "status": "selesai",
+      "species": "Pohon Jati",
+      "description": "Kasus penebangan pohon jati ilegal di hutan lindung telah diselesaikan. Pelaku ditangkap dan diproses hukum. Total 15 batang pohon jati berusia puluhan tahun berhasil diselamatkan.",
+      "image": "./img/pohon-jati.jpg",
+      "reporter": "Polisi Kehutanan",
+      "priority": "medium",
+      "updates": [
+        {
+          "date": "10 Nov 2024",
+          "status": "completed",
+          "text": "Laporan diterima dari patroli hutan"
+        },
+        {
+          "date": "11 Nov 2024",
+          "status": "completed",
+          "text": "Penyelidikan dimulai dan bukti dikumpulkan"
+        },
+        {
+          "date": "15 Nov 2024",
+          "status": "completed",
+          "text": "Pelaku berhasil ditangkap"
+        },
+        {
+          "date": "18 Nov 2024",
+          "status": "completed",
+          "text": "Proses hukum di pengadilan"
+        },
+        {
+          "date": "20 Nov 2024",
+          "status": "completed",
+          "text": "Kasus diselesaikan dengan vonis 2 tahun penjara"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Perdagangan Orangutan Ilegal",
+      "location": "Kalimantan Timur",
+      "date": "5 Desember 2024",
+      "status": "pengajuan",
+      "species": "Orangutan Kalimantan",
+      "description": "Laporan perdagangan orangutan ilegal di pasar gelap. Informasi menyebutkan ada jaringan perdagangan satwa dilindungi. Masih dalam tahap verifikasi data dan pengumpulan bukti awal.",
+      "image": "./img/orangutan-kalimantan.jpg",
+      "reporter": "NGO Konservasi",
+      "priority": "high",
+      "updates": [
+        {
+          "date": "5 Des 2024",
+          "status": "current",
+          "text": "Laporan diterima dan sedang diverifikasi"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Investigasi awal"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Penyelidikan lapangan"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Operasi penangkapan"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Perusakan Habitat Rafflesia",
+      "location": "Bengkulu, Sumatera",
+      "date": "1 Desember 2024",
+      "status": "penyelidikan",
+      "species": "Rafflesia Arnoldii",
+      "description": "Laporan perusakan habitat Rafflesia Arnoldii akibat pembukaan lahan perkebunan kelapa sawit. Tim ahli botani sedang melakukan survey untuk menilai tingkat kerusakan dan upaya penyelamatan.",
+      "image": "./img/raflesia-arnoldi.jpg",
+      "reporter": "Peneliti Botani LIPI",
+      "priority": "high",
+      "updates": [
+        {
+          "date": "1 Des 2024",
+          "status": "completed",
+          "text": "Laporan diterima dari peneliti"
+        },
+        {
+          "date": "3 Des 2024",
+          "status": "current",
+          "text": "Tim ahli melakukan survey lokasi dan dokumentasi"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Koordinasi dengan pihak perusahaan perkebunan"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Penetapan zona konservasi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Perburuan Elang Jawa",
+      "location": "Jawa Barat",
+      "date": "28 November 2024",
+      "status": "ditolak",
+      "species": "Elang Jawa",
+      "description": "Laporan perburuan Elang Jawa ditolak karena kurangnya bukti yang valid dan kredibilitas pelapor yang diragukan. Tidak ditemukan indikasi perburuan setelah verifikasi lapangan.",
+      "image": "./img/elang-jawa.jpg",
+      "reporter": "Anonim",
+      "priority": "low",
+      "updates": [
+        {
+          "date": "28 Nov 2024",
+          "status": "completed",
+          "text": "Laporan diterima dari sumber anonim"
+        },
+        {
+          "date": "29 Nov 2024",
+          "status": "completed",
+          "text": "Verifikasi data dan pemeriksaan lokasi"
+        },
+        {
+          "date": "30 Nov 2024",
+          "status": "completed",
+          "text": "Laporan ditolak - bukti tidak memadai dan tidak valid"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Penangkapan Komodo Liar",
+      "location": "Nusa Tenggara Timur",
+      "date": "20 November 2024",
+      "status": "selesai",
+      "species": "Komodo",
+      "description": "Kasus penangkapan komodo untuk dijual ke luar negeri berhasil digagalkan. Dua pelaku ditangkap beserta bukti berupa 3 ekor komodo muda dan peralatan penangkapan. Komodo diselamatkan dan dikembalikan ke habitat alami.",
+      "image": "./img/komodo.jpeg",
+      "reporter": "Petugas Taman Nasional Komodo",
+      "priority": "high",
+      "updates": [
+        {
+          "date": "20 Nov 2024",
+          "status": "completed",
+          "text": "Laporan pelanggaran diterima"
+        },
+        {
+          "date": "21 Nov 2024",
+          "status": "completed",
+          "text": "Operasi penangkapan dilakukan"
+        },
+        {
+          "date": "22 Nov 2024",
+          "status": "completed",
+          "text": "Tersangka berhasil ditangkap dengan barang bukti"
+        },
+        {
+          "date": "23 Nov 2024",
+          "status": "completed",
+          "text": "Komodo diselamatkan dan direhabilitasi"
+        },
+        {
+          "date": "25 Nov 2024",
+          "status": "completed",
+          "text": "Kasus ditutup, pelaku divonis 3 tahun penjara"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Pembakaran Hutan Habitat Orangutan",
+      "location": "Kalimantan Tengah",
+      "date": "12 Desember 2024",
+      "status": "pengajuan",
+      "species": "Orangutan Kalimantan",
+      "description": "Laporan pembakaran hutan yang merupakan habitat orangutan untuk pembukaan lahan baru. Diperkirakan mempengaruhi populasi sekitar 50 individu orangutan.",
+      "image": "./img/orangutan-kalimantan.jpg",
+      "reporter": "Masyarakat Adat",
+      "priority": "critical",
+      "updates": [
+        {
+          "date": "12 Des 2024",
+          "status": "current",
+          "text": "Laporan pembakaran hutan diterima"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Tim emergency response disiagakan"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Evakuasi satwa terdampak"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Perburuan Gajah Sumatera",
+      "location": "Lampung, Sumatera",
+      "date": "8 Desember 2024",
+      "status": "penyelidikan",
+      "species": "Gajah Sumatera",
+      "description": "Ditemukan bangkai gajah sumatera dengan tanda-tanda perburuan (gading hilang). Tim forensik satwa sedang menyelidiki dan mencari pelaku.",
+      "image": "./img/gajah-sumatra.jpg",
+      "reporter": "Ranger Taman Nasional",
+      "priority": "high",
+      "updates": [
+        {
+          "date": "8 Des 2024",
+          "status": "completed",
+          "text": "Bangkai gajah ditemukan"
+        },
+        {
+          "date": "9 Des 2024",
+          "status": "completed",
+          "text": "Autopsi dan pengumpulan bukti forensik"
+        },
+        {
+          "date": "11 Des 2024",
+          "status": "current",
+          "text": "Investigasi pelaku berlangsung"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Penangkapan tersangka"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Penyelundupan Jalak Bali",
+      "location": "Bali",
+      "date": "3 Desember 2024",
+      "status": "selesai",
+      "species": "Jalak Bali",
+      "description": "Berhasil menggagalkan penyelundupan 25 ekor Jalak Bali ke luar negeri. Burung-burung diselamatkan dan dikembalikan ke pusat konservasi.",
+      "image": "./img/jalak-bali.jpg",
+      "reporter": "Bea Cukai Bandara",
+      "priority": "medium",
+      "updates": [
+        {
+          "date": "3 Des 2024",
+          "status": "completed",
+          "text": "Penyelundup tertangkap di bandara"
+        },
+        {
+          "date": "4 Des 2024",
+          "status": "completed",
+          "text": "Jalak Bali disita dan dievakuasi"
+        },
+        {
+          "date": "5 Des 2024",
+          "status": "completed",
+          "text": "Burung diserahkan ke pusat konservasi"
+        },
+        {
+          "date": "7 Des 2024",
+          "status": "completed",
+          "text": "Pelaku divonis dan kasus ditutup"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Keracunan Massal Penyu Hijau",
+      "location": "Sulawesi Utara",
+      "date": "6 Desember 2024",
+      "status": "penyelidikan",
+      "species": "Penyu Hijau",
+      "description": "Ditemukan 12 ekor penyu hijau mati di pantai dengan indikasi keracunan. Sedang diselidiki apakah terkait limbah industri atau penyebab lain.",
+      "image": "./img/penyu-hijau.jpg",
+      "reporter": "Nelayan Lokal",
+      "priority": "high",
+      "updates": [
+        {
+          "date": "6 Des 2024",
+          "status": "completed",
+          "text": "Penemuan penyu mati dilaporkan"
+        },
+        {
+          "date": "7 Des 2024",
+          "status": "completed",
+          "text": "Pengambilan sampel untuk uji laboratorium"
+        },
+        {
+          "date": "10 Des 2024",
+          "status": "current",
+          "text": "Menunggu hasil lab dan investigasi sumber polusi"
+        },
+        {
+          "date": "TBD",
+          "status": "pending",
+          "text": "Tindakan terhadap pihak bertanggung jawab"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "totalKasus": 10,
+    "pengajuan": 2,
+    "penyelidikan": 4,
+    "selesai": 3,
+    "ditolak": 1
+  }
+}

@@ -1,0 +1,147 @@
+<!--Hayat Lestari-->
+<!--Website UAS-->
+<!-- Website Mengenai Pemeliharaan Hewan dan Tumbuhan yang Dilindungi terutama di Indonesia -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HayatLestari</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-dark);
+            color: #80b78b;
+            min-height: 100vh;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-globe2"></i>
+                    <b>HayatLestari</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                            Ensiklopedia
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Maincontentpage.html">Flora & Fauna</a></li>
+                        </ul>
+                    </li>
+                        
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="laporan.html">Lapor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#donasi">Donasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#adopsi">Adopsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#Tentang">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" >username</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <div class="report-section">
+        <div class="py-5 container">
+            <div class="row">
+                <!-- Kiri -->
+                <div class="py-5 left-section col-lg-6">
+                    <h1 class="report-title text-success" style="font-size: 70px;"><b>
+                        Pengajuan Laporan Penyelewengan
+                    </b></h1>
+                    <p class="report-subtitle text-dark" style="font-size: 24px;">
+                        Bantu lindungi satwa dan hutan dengan melaporkan kejadian yang Anda temui
+                    </p>
+                    <hr>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="form-card bg-dark p-4 rounded shadow">
+                        <form>
+                            <div class="mb-4">
+                                <label class="form-label text-white">Jenis Laporan*</label>
+                                <select class="form-select">
+                                    <option selected>Pilih jenis laporan</option>
+                                    <option value="1">Perburuan Liar</option>
+                                    <option value="2">Pembalakan Liar</option>
+                                    <option value="3">Perdagangan Satwa</option>
+                                    <option value="4">Lainnya</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label text-white">Nama Lengkap*</label>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label text-white">Deskripsi Kejadian*</label>
+                                <textarea class="form-control" placeholder="" rows="4"></textarea>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3 mb-md-0">
+                                    <label class="form-label text-white">Alamat/Lokasi*</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-white">Tanggal Kejadian*</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label text-white">Upload Foto*</label>
+                                <input type="file" class="form-control" accept="image/*">
+                            </div>
+
+                            <button type="submit" class="btn btn-success w-100 py-2 fw-bold">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+        <footer>
+            <div class="container align-items-center">
+                <br><p class="text-center">Haura Agnia Ramadhani Amnun - 2404043</p><br>
+            </div>
+        </footer>
+</body>
+
+<!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
